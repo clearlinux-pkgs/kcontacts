@@ -6,7 +6,7 @@
 #
 Name     : kcontacts
 Version  : 18.08.0
-Release  : 1
+Release  : 2
 URL      : https://download.kde.org/stable/applications/18.08.0/src/kcontacts-18.08.0.tar.xz
 Source0  : https://download.kde.org/stable/applications/18.08.0/src/kcontacts-18.08.0.tar.xz
 Source99 : https://download.kde.org/stable/applications/18.08.0/src/kcontacts-18.08.0.tar.xz.sig
@@ -16,6 +16,7 @@ License  : LGPL-2.1
 Requires: kcontacts-lib
 Requires: kcontacts-license
 Requires: kcontacts-locales
+Requires: kcontacts-data
 BuildRequires : buildreq-cmake
 BuildRequires : buildreq-kde
 BuildRequires : qtbase-dev qtbase-extras mesa-dev
@@ -27,10 +28,19 @@ KCcontacts provides an API for address book data. This can be used by all
 application using data of this type, e.g. KAddressBook, KMail, KOrganizer,
 etc.
 
+%package data
+Summary: data components for the kcontacts package.
+Group: Data
+
+%description data
+data components for the kcontacts package.
+
+
 %package dev
 Summary: dev components for the kcontacts package.
 Group: Development
 Requires: kcontacts-lib
+Requires: kcontacts-data
 Provides: kcontacts-devel
 
 %description dev
@@ -40,6 +50,7 @@ dev components for the kcontacts package.
 %package lib
 Summary: lib components for the kcontacts package.
 Group: Libraries
+Requires: kcontacts-data
 Requires: kcontacts-license
 
 %description lib
@@ -70,7 +81,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1535195545
+export SOURCE_DATE_EPOCH=1535426825
 mkdir clr-build
 pushd clr-build
 %cmake ..
@@ -78,7 +89,7 @@ make  %{?_smp_mflags}
 popd
 
 %install
-export SOURCE_DATE_EPOCH=1535195545
+export SOURCE_DATE_EPOCH=1535426825
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/doc/kcontacts
 cp COPYING.LIB %{buildroot}/usr/share/doc/kcontacts/COPYING.LIB
@@ -89,6 +100,11 @@ popd
 
 %files
 %defattr(-,root,root,-)
+
+%files data
+%defattr(-,root,root,-)
+/usr/share/xdg/kcontacts.categories
+/usr/share/xdg/kcontacts.renamecategories
 
 %files dev
 %defattr(-,root,root,-)
