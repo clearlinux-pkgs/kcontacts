@@ -5,21 +5,23 @@
 # Source0 file verified with key 0xDBD2CE893E2D1C87 (cfeck@kde.org)
 #
 Name     : kcontacts
-Version  : 18.08.0
-Release  : 2
-URL      : https://download.kde.org/stable/applications/18.08.0/src/kcontacts-18.08.0.tar.xz
-Source0  : https://download.kde.org/stable/applications/18.08.0/src/kcontacts-18.08.0.tar.xz
-Source99 : https://download.kde.org/stable/applications/18.08.0/src/kcontacts-18.08.0.tar.xz.sig
+Version  : 18.12.2
+Release  : 3
+URL      : https://download.kde.org/stable/applications/18.12.2/src/kcontacts-18.12.2.tar.xz
+Source0  : https://download.kde.org/stable/applications/18.12.2/src/kcontacts-18.12.2.tar.xz
+Source99 : https://download.kde.org/stable/applications/18.12.2/src/kcontacts-18.12.2.tar.xz.sig
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : LGPL-2.1
-Requires: kcontacts-lib
-Requires: kcontacts-license
-Requires: kcontacts-locales
-Requires: kcontacts-data
+Requires: kcontacts-data = %{version}-%{release}
+Requires: kcontacts-lib = %{version}-%{release}
+Requires: kcontacts-license = %{version}-%{release}
+Requires: kcontacts-locales = %{version}-%{release}
 BuildRequires : buildreq-cmake
 BuildRequires : buildreq-kde
-BuildRequires : qtbase-dev qtbase-extras mesa-dev
+BuildRequires : pkg-config
+BuildRequires : pkgconfig(iso-codes)
+BuildRequires : qtbase-dev mesa-dev
 
 %description
 KContacts - new address book API for KDE
@@ -39,9 +41,9 @@ data components for the kcontacts package.
 %package dev
 Summary: dev components for the kcontacts package.
 Group: Development
-Requires: kcontacts-lib
-Requires: kcontacts-data
-Provides: kcontacts-devel
+Requires: kcontacts-lib = %{version}-%{release}
+Requires: kcontacts-data = %{version}-%{release}
+Provides: kcontacts-devel = %{version}-%{release}
 
 %description dev
 dev components for the kcontacts package.
@@ -50,8 +52,8 @@ dev components for the kcontacts package.
 %package lib
 Summary: lib components for the kcontacts package.
 Group: Libraries
-Requires: kcontacts-data
-Requires: kcontacts-license
+Requires: kcontacts-data = %{version}-%{release}
+Requires: kcontacts-license = %{version}-%{release}
 
 %description lib
 lib components for the kcontacts package.
@@ -74,25 +76,25 @@ locales components for the kcontacts package.
 
 
 %prep
-%setup -q -n kcontacts-18.08.0
+%setup -q -n kcontacts-18.12.2
 
 %build
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1535426825
-mkdir clr-build
+export SOURCE_DATE_EPOCH=1549854781
+mkdir -p clr-build
 pushd clr-build
 %cmake ..
-make  %{?_smp_mflags}
+make  %{?_smp_mflags} VERBOSE=1
 popd
 
 %install
-export SOURCE_DATE_EPOCH=1535426825
+export SOURCE_DATE_EPOCH=1549854781
 rm -rf %{buildroot}
-mkdir -p %{buildroot}/usr/share/doc/kcontacts
-cp COPYING.LIB %{buildroot}/usr/share/doc/kcontacts/COPYING.LIB
+mkdir -p %{buildroot}/usr/share/package-licenses/kcontacts
+cp COPYING.LIB %{buildroot}/usr/share/package-licenses/kcontacts/COPYING.LIB
 pushd clr-build
 %make_install
 popd
@@ -182,11 +184,11 @@ popd
 %files lib
 %defattr(-,root,root,-)
 /usr/lib64/libKF5Contacts.so.5
-/usr/lib64/libKF5Contacts.so.5.9.0
+/usr/lib64/libKF5Contacts.so.5.10.2
 
 %files license
-%defattr(-,root,root,-)
-/usr/share/doc/kcontacts/COPYING.LIB
+%defattr(0644,root,root,0755)
+/usr/share/package-licenses/kcontacts/COPYING.LIB
 
 %files locales -f kcontacts5.lang
 %defattr(-,root,root,-)
