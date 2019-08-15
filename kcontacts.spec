@@ -5,11 +5,11 @@
 # Source0 file verified with key 0xDBD2CE893E2D1C87 (cfeck@kde.org)
 #
 Name     : kcontacts
-Version  : 19.04.3
-Release  : 12
-URL      : https://download.kde.org/stable/applications/19.04.3/src/kcontacts-19.04.3.tar.xz
-Source0  : https://download.kde.org/stable/applications/19.04.3/src/kcontacts-19.04.3.tar.xz
-Source99 : https://download.kde.org/stable/applications/19.04.3/src/kcontacts-19.04.3.tar.xz.sig
+Version  : 19.08.0
+Release  : 13
+URL      : https://download.kde.org/stable/applications/19.08.0/src/kcontacts-19.08.0.tar.xz
+Source0  : https://download.kde.org/stable/applications/19.08.0/src/kcontacts-19.08.0.tar.xz
+Source1 : https://download.kde.org/stable/applications/19.08.0/src/kcontacts-19.08.0.tar.xz.sig
 Summary  : Address book API for KDE
 Group    : Development/Tools
 License  : LGPL-2.1
@@ -24,11 +24,9 @@ BuildRequires : pkgconfig(iso-codes)
 BuildRequires : qtbase-dev mesa-dev
 
 %description
-KContacts - new address book API for KDE
-PURPOSE:
-KCcontacts provides an API for address book data. This can be used by all
-application using data of this type, e.g. KAddressBook, KMail, KOrganizer,
-etc.
+# KContacts
+KContact provides an API for contacts/address book data following the
+vCard standard (RFC 2425 / RFC 2426).
 
 %package data
 Summary: data components for the kcontacts package.
@@ -78,16 +76,17 @@ locales components for the kcontacts package.
 
 
 %prep
-%setup -q -n kcontacts-19.04.3
+%setup -q -n kcontacts-19.08.0
 
 %build
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1562866565
+export SOURCE_DATE_EPOCH=1565896062
 mkdir -p clr-build
 pushd clr-build
+# -Werror is for werrorists
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
@@ -101,7 +100,7 @@ make  %{?_smp_mflags} VERBOSE=1
 popd
 
 %install
-export SOURCE_DATE_EPOCH=1562866565
+export SOURCE_DATE_EPOCH=1565896062
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/kcontacts
 cp COPYING.LIB %{buildroot}/usr/share/package-licenses/kcontacts/COPYING.LIB
@@ -115,8 +114,8 @@ popd
 
 %files data
 %defattr(-,root,root,-)
-/usr/share/xdg/kcontacts.categories
-/usr/share/xdg/kcontacts.renamecategories
+/usr/share/qlogging-categories5/kcontacts.categories
+/usr/share/qlogging-categories5/kcontacts.renamecategories
 
 %files dev
 %defattr(-,root,root,-)
@@ -145,7 +144,6 @@ popd
 /usr/include/KF5/KContacts/KContacts/ResourceLocatorUrl
 /usr/include/KF5/KContacts/KContacts/Role
 /usr/include/KF5/KContacts/KContacts/Secrecy
-/usr/include/KF5/KContacts/KContacts/SortMode
 /usr/include/KF5/KContacts/KContacts/Sound
 /usr/include/KF5/KContacts/KContacts/TimeZone
 /usr/include/KF5/KContacts/KContacts/Title
@@ -177,7 +175,6 @@ popd
 /usr/include/KF5/KContacts/kcontacts/resourcelocatorurl.h
 /usr/include/KF5/KContacts/kcontacts/role.h
 /usr/include/KF5/KContacts/kcontacts/secrecy.h
-/usr/include/KF5/KContacts/kcontacts/sortmode.h
 /usr/include/KF5/KContacts/kcontacts/sound.h
 /usr/include/KF5/KContacts/kcontacts/timezone.h
 /usr/include/KF5/KContacts/kcontacts/title.h
@@ -194,7 +191,7 @@ popd
 %files lib
 %defattr(-,root,root,-)
 /usr/lib64/libKF5Contacts.so.5
-/usr/lib64/libKF5Contacts.so.5.11.3
+/usr/lib64/libKF5Contacts.so.5.12.0
 
 %files license
 %defattr(0644,root,root,0755)
