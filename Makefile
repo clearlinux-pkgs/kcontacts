@@ -1,5 +1,5 @@
 PKG_NAME := kcontacts
-URL = https://download.kde.org/stable/applications/19.08.3/src/kcontacts-19.08.3.tar.xz
+URL = https://download.kde.org/stable/frameworks/5.65/kcontacts-5.65.0.tar.xz
 ARCHIVES = 
 
 include ../common/Makefile.common
