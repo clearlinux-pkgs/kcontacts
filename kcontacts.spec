@@ -5,11 +5,11 @@
 # Source0 file verified with key 0x58D0EE648A48B3BB (faure@kde.org)
 #
 Name     : kcontacts
-Version  : 5.65.0
-Release  : 17
-URL      : https://download.kde.org/stable/frameworks/5.65/kcontacts-5.65.0.tar.xz
-Source0  : https://download.kde.org/stable/frameworks/5.65/kcontacts-5.65.0.tar.xz
-Source1  : https://download.kde.org/stable/frameworks/5.65/kcontacts-5.65.0.tar.xz.sig
+Version  : 5.66.0
+Release  : 18
+URL      : https://download.kde.org/stable/frameworks/5.66/kcontacts-5.66.0.tar.xz
+Source0  : https://download.kde.org/stable/frameworks/5.66/kcontacts-5.66.0.tar.xz
+Source1  : https://download.kde.org/stable/frameworks/5.66/kcontacts-5.66.0.tar.xz.sig
 Summary  : Address book API for KDE
 Group    : Development/Tools
 License  : LGPL-2.1
@@ -19,12 +19,17 @@ Requires: kcontacts-license = %{version}-%{release}
 Requires: kcontacts-locales = %{version}-%{release}
 BuildRequires : buildreq-cmake
 BuildRequires : buildreq-kde
+BuildRequires : kconfig-dev
+BuildRequires : kcoreaddons-dev
+BuildRequires : ki18n-dev
 BuildRequires : pkg-config
 BuildRequires : pkgconfig(iso-codes)
 BuildRequires : qtbase-dev mesa-dev
 
 %description
 # KContacts
+Support for vCard contacts
+## Introduction
 KContact provides an API for contacts/address book data following the
 vCard standard (RFC 2425 / RFC 2426).
 
@@ -42,6 +47,7 @@ Group: Development
 Requires: kcontacts-lib = %{version}-%{release}
 Requires: kcontacts-data = %{version}-%{release}
 Provides: kcontacts-devel = %{version}-%{release}
+Requires: kcontacts = %{version}-%{release}
 Requires: kcontacts = %{version}-%{release}
 
 %description dev
@@ -75,17 +81,18 @@ locales components for the kcontacts package.
 
 
 %prep
-%setup -q -n kcontacts-5.65.0
-cd %{_builddir}/kcontacts-5.65.0
+%setup -q -n kcontacts-5.66.0
+cd %{_builddir}/kcontacts-5.66.0
 
 %build
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1576530753
+export SOURCE_DATE_EPOCH=1578944339
 mkdir -p clr-build
 pushd clr-build
+# -Werror is for werrorists
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
@@ -99,10 +106,10 @@ make  %{?_smp_mflags}  VERBOSE=1
 popd
 
 %install
-export SOURCE_DATE_EPOCH=1576530753
+export SOURCE_DATE_EPOCH=1578944339
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/kcontacts
-cp %{_builddir}/kcontacts-5.65.0/COPYING.LIB %{buildroot}/usr/share/package-licenses/kcontacts/9a1929f4700d2407c70b507b3b2aaf6226a9543c
+cp %{_builddir}/kcontacts-5.66.0/COPYING.LIB %{buildroot}/usr/share/package-licenses/kcontacts/9a1929f4700d2407c70b507b3b2aaf6226a9543c
 pushd clr-build
 %make_install
 popd
@@ -190,7 +197,7 @@ popd
 %files lib
 %defattr(-,root,root,-)
 /usr/lib64/libKF5Contacts.so.5
-/usr/lib64/libKF5Contacts.so.5.65.0
+/usr/lib64/libKF5Contacts.so.5.66.0
 
 %files license
 %defattr(0644,root,root,0755)
