@@ -5,11 +5,11 @@
 # Source0 file verified with key 0x58D0EE648A48B3BB (faure@kde.org)
 #
 Name     : kcontacts
-Version  : 5.71.0
-Release  : 24
-URL      : https://download.kde.org/stable/frameworks/5.71/kcontacts-5.71.0.tar.xz
-Source0  : https://download.kde.org/stable/frameworks/5.71/kcontacts-5.71.0.tar.xz
-Source1  : https://download.kde.org/stable/frameworks/5.71/kcontacts-5.71.0.tar.xz.sig
+Version  : 5.73.0
+Release  : 25
+URL      : https://download.kde.org/stable/frameworks/5.73/kcontacts-5.73.0.tar.xz
+Source0  : https://download.kde.org/stable/frameworks/5.73/kcontacts-5.73.0.tar.xz
+Source1  : https://download.kde.org/stable/frameworks/5.73/kcontacts-5.73.0.tar.xz.sig
 Summary  : Address book API for KDE
 Group    : Development/Tools
 License  : LGPL-2.1
@@ -79,15 +79,15 @@ locales components for the kcontacts package.
 
 
 %prep
-%setup -q -n kcontacts-5.71.0
-cd %{_builddir}/kcontacts-5.71.0
+%setup -q -n kcontacts-5.73.0
+cd %{_builddir}/kcontacts-5.73.0
 
 %build
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1592246472
+export SOURCE_DATE_EPOCH=1597702902
 mkdir -p clr-build
 pushd clr-build
 export GCC_IGNORE_WERROR=1
@@ -99,14 +99,14 @@ export FCFLAGS="$FFLAGS -O3 -ffat-lto-objects -flto=4 "
 export FFLAGS="$FFLAGS -O3 -ffat-lto-objects -flto=4 "
 export CXXFLAGS="$CXXFLAGS -O3 -ffat-lto-objects -flto=4 "
 %cmake ..
-make  %{?_smp_mflags}  VERBOSE=1
+make  %{?_smp_mflags}
 popd
 
 %install
-export SOURCE_DATE_EPOCH=1592246472
+export SOURCE_DATE_EPOCH=1597702902
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/kcontacts
-cp %{_builddir}/kcontacts-5.71.0/COPYING.LIB %{buildroot}/usr/share/package-licenses/kcontacts/9a1929f4700d2407c70b507b3b2aaf6226a9543c
+cp %{_builddir}/kcontacts-5.73.0/COPYING.LIB %{buildroot}/usr/share/package-licenses/kcontacts/9a1929f4700d2407c70b507b3b2aaf6226a9543c
 pushd clr-build
 %make_install
 popd
@@ -194,7 +194,7 @@ popd
 %files lib
 %defattr(-,root,root,-)
 /usr/lib64/libKF5Contacts.so.5
-/usr/lib64/libKF5Contacts.so.5.71.0
+/usr/lib64/libKF5Contacts.so.5.73.0
 
 %files license
 %defattr(0644,root,root,0755)
