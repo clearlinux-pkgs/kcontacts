@@ -1,2 +1,5 @@
-5.85.0
+5.87.0
+kconfig-dev
+kcoreaddons-dev
+ki18n-dev
 pkgconfig(iso-codes)

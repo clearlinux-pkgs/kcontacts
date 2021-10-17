@@ -5,11 +5,11 @@
 # Source0 file verified with key 0x58D0EE648A48B3BB (faure@kde.org)
 #
 Name     : kcontacts
-Version  : 5.85.0
-Release  : 37
-URL      : https://download.kde.org/stable/frameworks/5.85/kcontacts-5.85.0.tar.xz
-Source0  : https://download.kde.org/stable/frameworks/5.85/kcontacts-5.85.0.tar.xz
-Source1  : https://download.kde.org/stable/frameworks/5.85/kcontacts-5.85.0.tar.xz.sig
+Version  : 5.87.0
+Release  : 38
+URL      : https://download.kde.org/stable/frameworks/5.87/kcontacts-5.87.0.tar.xz
+Source0  : https://download.kde.org/stable/frameworks/5.87/kcontacts-5.87.0.tar.xz
+Source1  : https://download.kde.org/stable/frameworks/5.87/kcontacts-5.87.0.tar.xz.sig
 Summary  : Address book API for KDE
 Group    : Development/Tools
 License  : BSD-3-Clause LGPL-2.0 MIT Unicode-DFS-2016
@@ -20,6 +20,9 @@ Requires: kcontacts-locales = %{version}-%{release}
 BuildRequires : buildreq-cmake
 BuildRequires : buildreq-kde
 BuildRequires : extra-cmake-modules-data
+BuildRequires : kconfig-dev
+BuildRequires : kcoreaddons-dev
+BuildRequires : ki18n-dev
 BuildRequires : pkgconfig(iso-codes)
 BuildRequires : qtbase-dev
 BuildRequires : qtbase-dev mesa-dev
@@ -78,15 +81,15 @@ locales components for the kcontacts package.
 
 
 %prep
-%setup -q -n kcontacts-5.85.0
-cd %{_builddir}/kcontacts-5.85.0
+%setup -q -n kcontacts-5.87.0
+cd %{_builddir}/kcontacts-5.87.0
 
 %build
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1630892646
+export SOURCE_DATE_EPOCH=1634432239
 mkdir -p clr-build
 pushd clr-build
 export GCC_IGNORE_WERROR=1
@@ -102,13 +105,13 @@ make  %{?_smp_mflags}
 popd
 
 %install
-export SOURCE_DATE_EPOCH=1630892646
+export SOURCE_DATE_EPOCH=1634432239
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/kcontacts
-cp %{_builddir}/kcontacts-5.85.0/LICENSES/BSD-3-Clause.txt %{buildroot}/usr/share/package-licenses/kcontacts/9950d3fdce1cff1f71212fb5abd31453c6ee2f8c
-cp %{_builddir}/kcontacts-5.85.0/LICENSES/LGPL-2.0-or-later.txt %{buildroot}/usr/share/package-licenses/kcontacts/20079e8f79713dce80ab09774505773c926afa2a
-cp %{_builddir}/kcontacts-5.85.0/LICENSES/MIT.txt %{buildroot}/usr/share/package-licenses/kcontacts/a0193e3fccf86c17dc71e3f6c0ac0b535e06bea3
-cp %{_builddir}/kcontacts-5.85.0/LICENSES/Unicode-DFS-2016.txt %{buildroot}/usr/share/package-licenses/kcontacts/561dfb2bb911e1d346abe66027b594bd2a400d27
+cp %{_builddir}/kcontacts-5.87.0/LICENSES/BSD-3-Clause.txt %{buildroot}/usr/share/package-licenses/kcontacts/9950d3fdce1cff1f71212fb5abd31453c6ee2f8c
+cp %{_builddir}/kcontacts-5.87.0/LICENSES/LGPL-2.0-or-later.txt %{buildroot}/usr/share/package-licenses/kcontacts/20079e8f79713dce80ab09774505773c926afa2a
+cp %{_builddir}/kcontacts-5.87.0/LICENSES/MIT.txt %{buildroot}/usr/share/package-licenses/kcontacts/a0193e3fccf86c17dc71e3f6c0ac0b535e06bea3
+cp %{_builddir}/kcontacts-5.87.0/LICENSES/Unicode-DFS-2016.txt %{buildroot}/usr/share/package-licenses/kcontacts/561dfb2bb911e1d346abe66027b594bd2a400d27
 pushd clr-build
 %make_install
 popd
@@ -196,7 +199,7 @@ popd
 %files lib
 %defattr(-,root,root,-)
 /usr/lib64/libKF5Contacts.so.5
-/usr/lib64/libKF5Contacts.so.5.85.0
+/usr/lib64/libKF5Contacts.so.5.87.0
 
 %files license
 %defattr(0644,root,root,0755)
