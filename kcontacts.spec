@@ -5,11 +5,11 @@
 # Source0 file verified with key 0x58D0EE648A48B3BB (faure@kde.org)
 #
 Name     : kcontacts
-Version  : 5.91.0
-Release  : 43
-URL      : https://download.kde.org/stable/frameworks/5.91/kcontacts-5.91.0.tar.xz
-Source0  : https://download.kde.org/stable/frameworks/5.91/kcontacts-5.91.0.tar.xz
-Source1  : https://download.kde.org/stable/frameworks/5.91/kcontacts-5.91.0.tar.xz.sig
+Version  : 5.92.0
+Release  : 44
+URL      : https://download.kde.org/stable/frameworks/5.92/kcontacts-5.92.0.tar.xz
+Source0  : https://download.kde.org/stable/frameworks/5.92/kcontacts-5.92.0.tar.xz
+Source1  : https://download.kde.org/stable/frameworks/5.92/kcontacts-5.92.0.tar.xz.sig
 Summary  : Address book API for KDE
 Group    : Development/Tools
 License  : BSD-3-Clause CC0-1.0 LGPL-2.0 MIT Unicode-DFS-2016
@@ -75,15 +75,15 @@ locales components for the kcontacts package.
 
 
 %prep
-%setup -q -n kcontacts-5.91.0
-cd %{_builddir}/kcontacts-5.91.0
+%setup -q -n kcontacts-5.92.0
+cd %{_builddir}/kcontacts-5.92.0
 
 %build
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1644801872
+export SOURCE_DATE_EPOCH=1647292050
 mkdir -p clr-build
 pushd clr-build
 export GCC_IGNORE_WERROR=1
@@ -99,14 +99,14 @@ make  %{?_smp_mflags}
 popd
 
 %install
-export SOURCE_DATE_EPOCH=1644801872
+export SOURCE_DATE_EPOCH=1647292050
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/kcontacts
-cp %{_builddir}/kcontacts-5.91.0/LICENSES/BSD-3-Clause.txt %{buildroot}/usr/share/package-licenses/kcontacts/9950d3fdce1cff1f71212fb5abd31453c6ee2f8c
-cp %{_builddir}/kcontacts-5.91.0/LICENSES/CC0-1.0.txt %{buildroot}/usr/share/package-licenses/kcontacts/82da472f6d00dc5f0a651f33ebb320aa9c7b08d0
-cp %{_builddir}/kcontacts-5.91.0/LICENSES/LGPL-2.0-or-later.txt %{buildroot}/usr/share/package-licenses/kcontacts/20079e8f79713dce80ab09774505773c926afa2a
-cp %{_builddir}/kcontacts-5.91.0/LICENSES/MIT.txt %{buildroot}/usr/share/package-licenses/kcontacts/a0193e3fccf86c17dc71e3f6c0ac0b535e06bea3
-cp %{_builddir}/kcontacts-5.91.0/LICENSES/Unicode-DFS-2016.txt %{buildroot}/usr/share/package-licenses/kcontacts/561dfb2bb911e1d346abe66027b594bd2a400d27
+cp %{_builddir}/kcontacts-5.92.0/LICENSES/BSD-3-Clause.txt %{buildroot}/usr/share/package-licenses/kcontacts/9950d3fdce1cff1f71212fb5abd31453c6ee2f8c
+cp %{_builddir}/kcontacts-5.92.0/LICENSES/CC0-1.0.txt %{buildroot}/usr/share/package-licenses/kcontacts/82da472f6d00dc5f0a651f33ebb320aa9c7b08d0
+cp %{_builddir}/kcontacts-5.92.0/LICENSES/LGPL-2.0-or-later.txt %{buildroot}/usr/share/package-licenses/kcontacts/20079e8f79713dce80ab09774505773c926afa2a
+cp %{_builddir}/kcontacts-5.92.0/LICENSES/MIT.txt %{buildroot}/usr/share/package-licenses/kcontacts/a0193e3fccf86c17dc71e3f6c0ac0b535e06bea3
+cp %{_builddir}/kcontacts-5.92.0/LICENSES/Unicode-DFS-2016.txt %{buildroot}/usr/share/package-licenses/kcontacts/561dfb2bb911e1d346abe66027b594bd2a400d27
 pushd clr-build
 %make_install
 popd
@@ -123,6 +123,7 @@ popd
 %files dev
 %defattr(-,root,root,-)
 /usr/include/KF5/KContacts/KContacts/Address
+/usr/include/KF5/KContacts/KContacts/AddressFormat
 /usr/include/KF5/KContacts/KContacts/Addressee
 /usr/include/KF5/KContacts/KContacts/AddresseeList
 /usr/include/KF5/KContacts/KContacts/CalendarUrl
@@ -138,6 +139,7 @@ popd
 /usr/include/KF5/KContacts/KContacts/Key
 /usr/include/KF5/KContacts/KContacts/LDIFConverter
 /usr/include/KF5/KContacts/KContacts/Lang
+/usr/include/KF5/KContacts/KContacts/Namespace
 /usr/include/KF5/KContacts/KContacts/NickName
 /usr/include/KF5/KContacts/KContacts/Note
 /usr/include/KF5/KContacts/KContacts/Org
@@ -155,6 +157,7 @@ popd
 /usr/include/KF5/KContacts/kcontacts/address.h
 /usr/include/KF5/KContacts/kcontacts/addressee.h
 /usr/include/KF5/KContacts/kcontacts/addresseelist.h
+/usr/include/KF5/KContacts/kcontacts/addressformat.h
 /usr/include/KF5/KContacts/kcontacts/calendarurl.h
 /usr/include/KF5/KContacts/kcontacts/clientpidmap.h
 /usr/include/KF5/KContacts/kcontacts/contactgroup.h
@@ -169,6 +172,7 @@ popd
 /usr/include/KF5/KContacts/kcontacts/key.h
 /usr/include/KF5/KContacts/kcontacts/lang.h
 /usr/include/KF5/KContacts/kcontacts/ldifconverter.h
+/usr/include/KF5/KContacts/kcontacts/namespace.h
 /usr/include/KF5/KContacts/kcontacts/nickname.h
 /usr/include/KF5/KContacts/kcontacts/note.h
 /usr/include/KF5/KContacts/kcontacts/org.h
@@ -194,7 +198,7 @@ popd
 %files lib
 %defattr(-,root,root,-)
 /usr/lib64/libKF5Contacts.so.5
-/usr/lib64/libKF5Contacts.so.5.91.0
+/usr/lib64/libKF5Contacts.so.5.92.0
 
 %files license
 %defattr(0644,root,root,0755)
