@@ -7,7 +7,7 @@
 #
 Name     : kcontacts
 Version  : 5.106.0
-Release  : 59
+Release  : 60
 URL      : https://download.kde.org/stable/frameworks/5.106/kcontacts-5.106.0.tar.xz
 Source0  : https://download.kde.org/stable/frameworks/5.106/kcontacts-5.106.0.tar.xz
 Source1  : https://download.kde.org/stable/frameworks/5.106/kcontacts-5.106.0.tar.xz.sig
@@ -88,7 +88,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1684820156
+export SOURCE_DATE_EPOCH=1685566155
 mkdir -p clr-build
 pushd clr-build
 export GCC_IGNORE_WERROR=1
@@ -121,7 +121,7 @@ make  %{?_smp_mflags}
 popd
 
 %install
-export SOURCE_DATE_EPOCH=1684820156
+export SOURCE_DATE_EPOCH=1685566155
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/kcontacts
 cp %{_builddir}/kcontacts-%{version}/LICENSES/BSD-3-Clause.txt %{buildroot}/usr/share/package-licenses/kcontacts/9950d3fdce1cff1f71212fb5abd31453c6ee2f8c || :
@@ -148,7 +148,6 @@ popd
 
 %files dev
 %defattr(-,root,root,-)
-/V3/usr/lib64/libKF5Contacts.so
 /usr/include/KF5/KContacts/KContacts/Address
 /usr/include/KF5/KContacts/KContacts/AddressFormat
 /usr/include/KF5/KContacts/KContacts/Addressee
@@ -224,7 +223,6 @@ popd
 
 %files lib
 %defattr(-,root,root,-)
-/V3/usr/lib64/libKF5Contacts.so.5
 /V3/usr/lib64/libKF5Contacts.so.5.106.0
 /usr/lib64/libKF5Contacts.so.5
 /usr/lib64/libKF5Contacts.so.5.106.0
