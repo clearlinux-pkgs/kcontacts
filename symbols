@@ -1,899 +1,160 @@
-libKF6Contacts.so.6:KContacts::FieldGroup::setFieldGroupName(QString const&)
-libKF6Contacts.so.6:KContacts::FieldGroup::setValue(QString const&)
-libKF6Contacts.so.6:KContacts::FieldGroup::setParams(KContacts::ParameterMap const&)
-libKF6Contacts.so.6:KContacts::FieldGroup::FieldGroup(QString const&)
-libKF6Contacts.so.6:KContacts::FieldGroup::FieldGroup(KContacts::FieldGroup const&)
-libKF6Contacts.so.6:KContacts::FieldGroup::FieldGroup()
-libKF6Contacts.so.6:KContacts::FieldGroup::FieldGroup(QString const&)
-libKF6Contacts.so.6:KContacts::FieldGroup::FieldGroup(KContacts::FieldGroup const&)
-libKF6Contacts.so.6:KContacts::FieldGroup::FieldGroup()
-libKF6Contacts.so.6:KContacts::FieldGroup::~FieldGroup()
-libKF6Contacts.so.6:KContacts::FieldGroup::~FieldGroup()
-libKF6Contacts.so.6:KContacts::FieldGroup::operator=(KContacts::FieldGroup const&)
-libKF6Contacts.so.6:KContacts::CalendarUrl::setUrl(QUrl const&)
-libKF6Contacts.so.6:KContacts::CalendarUrl::setType(KContacts::CalendarUrl::CalendarType)
-libKF6Contacts.so.6:KContacts::CalendarUrl::setParams(KContacts::ParameterMap const&)
-libKF6Contacts.so.6:KContacts::CalendarUrl::CalendarUrl(KContacts::CalendarUrl::CalendarType)
-libKF6Contacts.so.6:KContacts::CalendarUrl::CalendarUrl(KContacts::CalendarUrl const&)
-libKF6Contacts.so.6:KContacts::CalendarUrl::CalendarUrl()
-libKF6Contacts.so.6:KContacts::CalendarUrl::CalendarUrl(KContacts::CalendarUrl::CalendarType)
-libKF6Contacts.so.6:KContacts::CalendarUrl::CalendarUrl(KContacts::CalendarUrl const&)
-libKF6Contacts.so.6:KContacts::CalendarUrl::CalendarUrl()
-libKF6Contacts.so.6:KContacts::CalendarUrl::~CalendarUrl()
-libKF6Contacts.so.6:KContacts::CalendarUrl::~CalendarUrl()
-libKF6Contacts.so.6:KContacts::CalendarUrl::operator=(KContacts::CalendarUrl const&)
-libKF6Contacts.so.6:KContacts::PhoneNumber::typeFlagLabel(KContacts::PhoneNumber::TypeFlag)
-libKF6Contacts.so.6:KContacts::PhoneNumber::setId(QString const&)
-libKF6Contacts.so.6:KContacts::PhoneNumber::setType(QFlags<KContacts::PhoneNumber::TypeFlag>)
-libKF6Contacts.so.6:KContacts::PhoneNumber::typeList()
-libKF6Contacts.so.6:KContacts::PhoneNumber::setNumber(QString const&)
-libKF6Contacts.so.6:KContacts::PhoneNumber::typeLabel(QFlags<KContacts::PhoneNumber::TypeFlag>)
-libKF6Contacts.so.6:KContacts::PhoneNumber::PhoneNumber(QString const&, QFlags<KContacts::PhoneNumber::TypeFlag>)
-libKF6Contacts.so.6:KContacts::PhoneNumber::PhoneNumber(KContacts::PhoneNumber const&)
-libKF6Contacts.so.6:KContacts::PhoneNumber::PhoneNumber()
-libKF6Contacts.so.6:KContacts::PhoneNumber::PhoneNumber(QString const&, QFlags<KContacts::PhoneNumber::TypeFlag>)
-libKF6Contacts.so.6:KContacts::PhoneNumber::PhoneNumber(KContacts::PhoneNumber const&)
-libKF6Contacts.so.6:KContacts::PhoneNumber::PhoneNumber()
-libKF6Contacts.so.6:KContacts::PhoneNumber::~PhoneNumber()
-libKF6Contacts.so.6:KContacts::PhoneNumber::~PhoneNumber()
-libKF6Contacts.so.6:KContacts::PhoneNumber::operator=(KContacts::PhoneNumber const&)
-libKF6Contacts.so.6:KContacts::ClientPidMap::setClientPidMap(QString const&)
-libKF6Contacts.so.6:KContacts::ClientPidMap::setParams(KContacts::ParameterMap const&)
-libKF6Contacts.so.6:KContacts::ClientPidMap::ClientPidMap(QString const&)
-libKF6Contacts.so.6:KContacts::ClientPidMap::ClientPidMap(KContacts::ClientPidMap const&)
-libKF6Contacts.so.6:KContacts::ClientPidMap::ClientPidMap()
-libKF6Contacts.so.6:KContacts::ClientPidMap::ClientPidMap(QString const&)
-libKF6Contacts.so.6:KContacts::ClientPidMap::ClientPidMap(KContacts::ClientPidMap const&)
-libKF6Contacts.so.6:KContacts::ClientPidMap::ClientPidMap()
-libKF6Contacts.so.6:KContacts::ClientPidMap::~ClientPidMap()
-libKF6Contacts.so.6:KContacts::ClientPidMap::~ClientPidMap()
-libKF6Contacts.so.6:KContacts::ClientPidMap::operator=(KContacts::ClientPidMap const&)
-libKF6Contacts.so.6:KContacts::ContactGroup::ContactReference::insertCustom(QString const&, QString const&)
-libKF6Contacts.so.6:KContacts::ContactGroup::ContactReference::removeCustom(QString const&)
-libKF6Contacts.so.6:KContacts::ContactGroup::ContactReference::setPreferredEmail(QString const&)
-libKF6Contacts.so.6:KContacts::ContactGroup::ContactReference::setGid(QString const&)
-libKF6Contacts.so.6:KContacts::ContactGroup::ContactReference::setUid(QString const&)
-libKF6Contacts.so.6:KContacts::ContactGroup::ContactReference::ContactReference(QString const&)
-libKF6Contacts.so.6:KContacts::ContactGroup::ContactReference::ContactReference(KContacts::ContactGroup::ContactReference const&)
-libKF6Contacts.so.6:KContacts::ContactGroup::ContactReference::ContactReference()
-libKF6Contacts.so.6:KContacts::ContactGroup::ContactReference::ContactReference(QString const&)
-libKF6Contacts.so.6:KContacts::ContactGroup::ContactReference::ContactReference(KContacts::ContactGroup::ContactReference const&)
-libKF6Contacts.so.6:KContacts::ContactGroup::ContactReference::ContactReference()
-libKF6Contacts.so.6:KContacts::ContactGroup::ContactReference::~ContactReference()
-libKF6Contacts.so.6:KContacts::ContactGroup::ContactReference::~ContactReference()
-libKF6Contacts.so.6:KContacts::ContactGroup::ContactReference::operator=(KContacts::ContactGroup::ContactReference const&)
-libKF6Contacts.so.6:KContacts::ContactGroup::contactReference(int)
-libKF6Contacts.so.6:KContacts::ContactGroup::removeAllContactData()
-libKF6Contacts.so.6:KContacts::ContactGroup::ContactGroupReference::insertCustom(QString const&, QString const&)
-libKF6Contacts.so.6:KContacts::ContactGroup::ContactGroupReference::removeCustom(QString const&)
-libKF6Contacts.so.6:KContacts::ContactGroup::ContactGroupReference::setUid(QString const&)
-libKF6Contacts.so.6:KContacts::ContactGroup::ContactGroupReference::ContactGroupReference(QString const&)
-libKF6Contacts.so.6:KContacts::ContactGroup::ContactGroupReference::ContactGroupReference(KContacts::ContactGroup::ContactGroupReference const&)
-libKF6Contacts.so.6:KContacts::ContactGroup::ContactGroupReference::ContactGroupReference()
-libKF6Contacts.so.6:KContacts::ContactGroup::ContactGroupReference::ContactGroupReference(QString const&)
-libKF6Contacts.so.6:KContacts::ContactGroup::ContactGroupReference::ContactGroupReference(KContacts::ContactGroup::ContactGroupReference const&)
-libKF6Contacts.so.6:KContacts::ContactGroup::ContactGroupReference::ContactGroupReference()
-libKF6Contacts.so.6:KContacts::ContactGroup::ContactGroupReference::~ContactGroupReference()
-libKF6Contacts.so.6:KContacts::ContactGroup::ContactGroupReference::~ContactGroupReference()
-libKF6Contacts.so.6:KContacts::ContactGroup::ContactGroupReference::operator=(KContacts::ContactGroup::ContactGroupReference const&)
-libKF6Contacts.so.6:KContacts::ContactGroup::contactGroupReference(int)
-libKF6Contacts.so.6:KContacts::ContactGroup::removeAllContactReferences()
-libKF6Contacts.so.6:KContacts::ContactGroup::removeAllContactGroupReferences()
-libKF6Contacts.so.6:KContacts::ContactGroup::Data::insertCustom(QString const&, QString const&)
-libKF6Contacts.so.6:KContacts::ContactGroup::Data::removeCustom(QString const&)
-libKF6Contacts.so.6:KContacts::ContactGroup::Data::setName(QString const&)
-libKF6Contacts.so.6:KContacts::ContactGroup::Data::setEmail(QString const&)
-libKF6Contacts.so.6:KContacts::ContactGroup::Data::Data(QString const&, QString const&)
-libKF6Contacts.so.6:KContacts::ContactGroup::Data::Data(KContacts::ContactGroup::Data const&)
-libKF6Contacts.so.6:KContacts::ContactGroup::Data::Data()
-libKF6Contacts.so.6:KContacts::ContactGroup::Data::Data(QString const&, QString const&)
-libKF6Contacts.so.6:KContacts::ContactGroup::Data::Data(KContacts::ContactGroup::Data const&)
-libKF6Contacts.so.6:KContacts::ContactGroup::Data::Data()
-libKF6Contacts.so.6:KContacts::ContactGroup::Data::~Data()
-libKF6Contacts.so.6:KContacts::ContactGroup::Data::~Data()
-libKF6Contacts.so.6:KContacts::ContactGroup::Data::operator=(KContacts::ContactGroup::Data const&)
-libKF6Contacts.so.6:KContacts::ContactGroup::data(int)
-libKF6Contacts.so.6:KContacts::ContactGroup::setId(QString const&)
-libKF6Contacts.so.6:KContacts::ContactGroup::append(KContacts::ContactGroup::ContactReference const&)
-libKF6Contacts.so.6:KContacts::ContactGroup::append(KContacts::ContactGroup::ContactGroupReference const&)
-libKF6Contacts.so.6:KContacts::ContactGroup::append(KContacts::ContactGroup::Data const&)
-libKF6Contacts.so.6:KContacts::ContactGroup::remove(KContacts::ContactGroup::ContactReference const&)
-libKF6Contacts.so.6:KContacts::ContactGroup::remove(KContacts::ContactGroup::ContactGroupReference const&)
-libKF6Contacts.so.6:KContacts::ContactGroup::remove(KContacts::ContactGroup::Data const&)
-libKF6Contacts.so.6:KContacts::ContactGroup::setName(QString const&)
-libKF6Contacts.so.6:KContacts::ContactGroup::mimeType()
-libKF6Contacts.so.6:KContacts::ContactGroup::ContactGroup(QString const&)
-libKF6Contacts.so.6:KContacts::ContactGroup::ContactGroup(KContacts::ContactGroup const&)
-libKF6Contacts.so.6:KContacts::ContactGroup::ContactGroup()
-libKF6Contacts.so.6:KContacts::ContactGroup::ContactGroup(QString const&)
-libKF6Contacts.so.6:KContacts::ContactGroup::ContactGroup(KContacts::ContactGroup const&)
-libKF6Contacts.so.6:KContacts::ContactGroup::ContactGroup()
-libKF6Contacts.so.6:KContacts::ContactGroup::~ContactGroup()
-libKF6Contacts.so.6:KContacts::ContactGroup::~ContactGroup()
-libKF6Contacts.so.6:KContacts::ContactGroup::operator=(KContacts::ContactGroup const&)
-libKF6Contacts.so.6:KContacts::AddressFormat::AddressFormat(KContacts::AddressFormat const&)
-libKF6Contacts.so.6:KContacts::AddressFormat::AddressFormat()
-libKF6Contacts.so.6:KContacts::AddressFormat::AddressFormat(KContacts::AddressFormat const&)
-libKF6Contacts.so.6:KContacts::AddressFormat::AddressFormat()
-libKF6Contacts.so.6:KContacts::AddressFormat::~AddressFormat()
-libKF6Contacts.so.6:KContacts::AddressFormat::~AddressFormat()
-libKF6Contacts.so.6:KContacts::AddressFormat::operator=(KContacts::AddressFormat const&)
-libKF6Contacts.so.6:KContacts::LDIFConverter::LDIFToAddressee(QString const&, QList<KContacts::Addressee>&, QList<KContacts::ContactGroup>&, QDateTime const&)
-libKF6Contacts.so.6:KContacts::LDIFConverter::addresseeToLDIF(QList<KContacts::Addressee> const&, QString&)
-libKF6Contacts.so.6:KContacts::LDIFConverter::addresseeToLDIF(KContacts::Addressee const&, QString&)
-libKF6Contacts.so.6:KContacts::LDIFConverter::contactGroupToLDIF(QList<KContacts::ContactGroup> const&, QString&)
-libKF6Contacts.so.6:KContacts::LDIFConverter::contactGroupToLDIF(KContacts::ContactGroup const&, QString&)
-libKF6Contacts.so.6:KContacts::LDIFConverter::addresseeAndContactGroupToLDIF(QList<KContacts::Addressee> const&, QList<KContacts::ContactGroup> const&, QString&)
-libKF6Contacts.so.6:KContacts::VCardConverter::VCardConverter()
-libKF6Contacts.so.6:KContacts::VCardConverter::VCardConverter()
-libKF6Contacts.so.6:KContacts::VCardConverter::~VCardConverter()
-libKF6Contacts.so.6:KContacts::VCardConverter::~VCardConverter()
-libKF6Contacts.so.6:KContacts::ContactGroupTool::convertToXml(QList<KContacts::ContactGroup> const&, QIODevice*, QString*)
-libKF6Contacts.so.6:KContacts::ContactGroupTool::convertToXml(KContacts::ContactGroup const&, QIODevice*, QString*)
-libKF6Contacts.so.6:KContacts::ContactGroupTool::convertFromXml(QIODevice*, QList<KContacts::ContactGroup>&, QString*)
-libKF6Contacts.so.6:KContacts::ContactGroupTool::convertFromXml(QIODevice*, KContacts::ContactGroup&, QString*)
-libKF6Contacts.so.6:KContacts::VCardStringToDate(QString const&)
-libKF6Contacts.so.6:KContacts::adaptIMAttributes(QByteArray&)
-libKF6Contacts.so.6:KContacts::dateToVCardString(QDate)
-libKF6Contacts.so.6:KContacts::dateToVCardString(QDateTime const&)
-libKF6Contacts.so.6:KContacts::ResourceLocatorUrl::setPreferred(bool)
-libKF6Contacts.so.6:KContacts::ResourceLocatorUrl::setUrl(QUrl const&)
-libKF6Contacts.so.6:KContacts::ResourceLocatorUrl::setType(QFlags<KContacts::ResourceLocatorUrl::TypeFlag>)
-libKF6Contacts.so.6:KContacts::ResourceLocatorUrl::setParams(KContacts::ParameterMap const&)
-libKF6Contacts.so.6:KContacts::ResourceLocatorUrl::ResourceLocatorUrl(KContacts::ResourceLocatorUrl const&)
-libKF6Contacts.so.6:KContacts::ResourceLocatorUrl::ResourceLocatorUrl()
-libKF6Contacts.so.6:KContacts::ResourceLocatorUrl::ResourceLocatorUrl(KContacts::ResourceLocatorUrl const&)
-libKF6Contacts.so.6:KContacts::ResourceLocatorUrl::ResourceLocatorUrl()
-libKF6Contacts.so.6:KContacts::ResourceLocatorUrl::~ResourceLocatorUrl()
-libKF6Contacts.so.6:KContacts::ResourceLocatorUrl::~ResourceLocatorUrl()
-libKF6Contacts.so.6:KContacts::ResourceLocatorUrl::operator=(KContacts::ResourceLocatorUrl const&)
-libKF6Contacts.so.6:KContacts::AddressFormatElement::AddressFormatElement(KContacts::AddressFormatElement const&)
-libKF6Contacts.so.6:KContacts::AddressFormatElement::AddressFormatElement()
-libKF6Contacts.so.6:KContacts::AddressFormatElement::AddressFormatElement(KContacts::AddressFormatElement const&)
-libKF6Contacts.so.6:KContacts::AddressFormatElement::AddressFormatElement()
-libKF6Contacts.so.6:KContacts::AddressFormatElement::~AddressFormatElement()
-libKF6Contacts.so.6:KContacts::AddressFormatElement::~AddressFormatElement()
-libKF6Contacts.so.6:KContacts::AddressFormatElement::operator=(KContacts::AddressFormatElement const&)
-libKF6Contacts.so.6:KContacts::AddressFormatRepository::formatForAddress(KContacts::Address const&, KContacts::AddressFormatPreference)
-libKF6Contacts.so.6:KContacts::AddressFormatRepository::formatForCountry(QString const&, KContacts::AddressFormatScriptPreference, KContacts::AddressFormatPreference)
-libKF6Contacts.so.6:KContacts::Geo::setLatitude(float)
-libKF6Contacts.so.6:KContacts::Geo::setLongitude(float)
-libKF6Contacts.so.6:KContacts::Geo::clear()
-libKF6Contacts.so.6:KContacts::Geo::Geo(KContacts::Geo const&)
-libKF6Contacts.so.6:KContacts::Geo::Geo(float, float)
-libKF6Contacts.so.6:KContacts::Geo::Geo()
-libKF6Contacts.so.6:KContacts::Geo::Geo(KContacts::Geo const&)
-libKF6Contacts.so.6:KContacts::Geo::Geo(float, float)
-libKF6Contacts.so.6:KContacts::Geo::Geo()
-libKF6Contacts.so.6:KContacts::Geo::~Geo()
-libKF6Contacts.so.6:KContacts::Geo::~Geo()
-libKF6Contacts.so.6:KContacts::Geo::operator=(KContacts::Geo const&)
-libKF6Contacts.so.6:KContacts::Key::setTextData(QString const&)
-libKF6Contacts.so.6:KContacts::Key::setBinaryData(QByteArray const&)
-libKF6Contacts.so.6:KContacts::Key::setCustomTypeString(QString const&)
-libKF6Contacts.so.6:KContacts::Key::setId(QString const&)
-libKF6Contacts.so.6:KContacts::Key::setType(KContacts::Key::Type)
-libKF6Contacts.so.6:KContacts::Key::typeList()
-libKF6Contacts.so.6:KContacts::Key::typeLabel(KContacts::Key::Type)
-libKF6Contacts.so.6:KContacts::Key::Key(QString const&, KContacts::Key::Type)
-libKF6Contacts.so.6:KContacts::Key::Key(KContacts::Key const&)
-libKF6Contacts.so.6:KContacts::Key::Key(QString const&, KContacts::Key::Type)
-libKF6Contacts.so.6:KContacts::Key::Key(KContacts::Key const&)
-libKF6Contacts.so.6:KContacts::Key::~Key()
-libKF6Contacts.so.6:KContacts::Key::~Key()
-libKF6Contacts.so.6:KContacts::Key::operator=(KContacts::Key const&)
-libKF6Contacts.so.6:KContacts::Org::setOrganization(QString const&)
-libKF6Contacts.so.6:KContacts::Org::setParams(KContacts::ParameterMap const&)
-libKF6Contacts.so.6:KContacts::Org::Org(QString const&)
-libKF6Contacts.so.6:KContacts::Org::Org(KContacts::Org const&)
-libKF6Contacts.so.6:KContacts::Org::Org()
-libKF6Contacts.so.6:KContacts::Org::Org(QString const&)
-libKF6Contacts.so.6:KContacts::Org::Org(KContacts::Org const&)
-libKF6Contacts.so.6:KContacts::Org::Org()
-libKF6Contacts.so.6:KContacts::Org::~Org()
-libKF6Contacts.so.6:KContacts::Org::~Org()
-libKF6Contacts.so.6:KContacts::Org::operator=(KContacts::Org const&)
-libKF6Contacts.so.6:KContacts::Impp::setAddress(QUrl const&)
-libKF6Contacts.so.6:KContacts::Impp::serviceIcon(QString const&)
-libKF6Contacts.so.6:KContacts::Impp::serviceLabel(QString const&)
-libKF6Contacts.so.6:KContacts::Impp::serviceTypes()
-libKF6Contacts.so.6:KContacts::Impp::setPreferred(bool)
-libKF6Contacts.so.6:KContacts::Impp::setParams(KContacts::ParameterMap const&)
-libKF6Contacts.so.6:KContacts::Impp::Impp(QUrl const&)
-libKF6Contacts.so.6:KContacts::Impp::Impp(KContacts::Impp const&)
-libKF6Contacts.so.6:KContacts::Impp::Impp()
-libKF6Contacts.so.6:KContacts::Impp::Impp(QUrl const&)
-libKF6Contacts.so.6:KContacts::Impp::Impp(KContacts::Impp const&)
-libKF6Contacts.so.6:KContacts::Impp::Impp()
-libKF6Contacts.so.6:KContacts::Impp::~Impp()
-libKF6Contacts.so.6:KContacts::Impp::~Impp()
-libKF6Contacts.so.6:KContacts::Impp::operator=(KContacts::Impp const&)
-libKF6Contacts.so.6:KContacts::Lang::setLanguage(QString const&)
-libKF6Contacts.so.6:KContacts::Lang::setParams(KContacts::ParameterMap const&)
-libKF6Contacts.so.6:KContacts::Lang::Lang(QString const&)
-libKF6Contacts.so.6:KContacts::Lang::Lang(KContacts::Lang const&)
-libKF6Contacts.so.6:KContacts::Lang::Lang()
-libKF6Contacts.so.6:KContacts::Lang::Lang(QString const&)
-libKF6Contacts.so.6:KContacts::Lang::Lang(KContacts::Lang const&)
-libKF6Contacts.so.6:KContacts::Lang::Lang()
-libKF6Contacts.so.6:KContacts::Lang::~Lang()
-libKF6Contacts.so.6:KContacts::Lang::~Lang()
-libKF6Contacts.so.6:KContacts::Lang::operator=(KContacts::Lang const&)
-libKF6Contacts.so.6:KContacts::Note::setNote(QString const&)
-libKF6Contacts.so.6:KContacts::Note::Note(QString const&)
-libKF6Contacts.so.6:KContacts::Note::Note(KContacts::Note const&)
-libKF6Contacts.so.6:KContacts::Note::Note()
-libKF6Contacts.so.6:KContacts::Note::Note(QString const&)
-libKF6Contacts.so.6:KContacts::Note::Note(KContacts::Note const&)
-libKF6Contacts.so.6:KContacts::Note::Note()
-libKF6Contacts.so.6:KContacts::Note::~Note()
-libKF6Contacts.so.6:KContacts::Note::~Note()
-libKF6Contacts.so.6:KContacts::Note::operator=(KContacts::Note const&)
-libKF6Contacts.so.6:KContacts::Role::setRole(QString const&)
-libKF6Contacts.so.6:KContacts::Role::setParams(KContacts::ParameterMap const&)
-libKF6Contacts.so.6:KContacts::Role::Role(QString const&)
-libKF6Contacts.so.6:KContacts::Role::Role(KContacts::Role const&)
-libKF6Contacts.so.6:KContacts::Role::Role()
-libKF6Contacts.so.6:KContacts::Role::Role(QString const&)
-libKF6Contacts.so.6:KContacts::Role::Role(KContacts::Role const&)
-libKF6Contacts.so.6:KContacts::Role::Role()
-libKF6Contacts.so.6:KContacts::Role::~Role()
-libKF6Contacts.so.6:KContacts::Role::~Role()
-libKF6Contacts.so.6:KContacts::Role::operator=(KContacts::Role const&)
-libKF6Contacts.so.6:KContacts::Email::setPreferred(bool)
-libKF6Contacts.so.6:KContacts::Email::setType(QFlags<KContacts::Email::TypeFlag>)
-libKF6Contacts.so.6:KContacts::Email::setEmail(QString const&)
-libKF6Contacts.so.6:KContacts::Email::setParams(KContacts::ParameterMap const&)
-libKF6Contacts.so.6:KContacts::Email::Email(QString const&)
-libKF6Contacts.so.6:KContacts::Email::Email(KContacts::Email const&)
-libKF6Contacts.so.6:KContacts::Email::Email()
-libKF6Contacts.so.6:KContacts::Email::Email(QString const&)
-libKF6Contacts.so.6:KContacts::Email::Email(KContacts::Email const&)
-libKF6Contacts.so.6:KContacts::Email::Email()
-libKF6Contacts.so.6:KContacts::Email::~Email()
-libKF6Contacts.so.6:KContacts::Email::~Email()
-libKF6Contacts.so.6:KContacts::Email::operator=(KContacts::Email const&)
-libKF6Contacts.so.6:KContacts::Sound::setUrl(QString const&)
-libKF6Contacts.so.6:KContacts::Sound::setData(QByteArray const&)
-libKF6Contacts.so.6:KContacts::Sound::Sound(QByteArray const&)
-libKF6Contacts.so.6:KContacts::Sound::Sound(QString const&)
-libKF6Contacts.so.6:KContacts::Sound::Sound(KContacts::Sound const&)
-libKF6Contacts.so.6:KContacts::Sound::Sound()
-libKF6Contacts.so.6:KContacts::Sound::Sound(QByteArray const&)
-libKF6Contacts.so.6:KContacts::Sound::Sound(QString const&)
-libKF6Contacts.so.6:KContacts::Sound::Sound(KContacts::Sound const&)
-libKF6Contacts.so.6:KContacts::Sound::Sound()
-libKF6Contacts.so.6:KContacts::Sound::~Sound()
-libKF6Contacts.so.6:KContacts::Sound::~Sound()
-libKF6Contacts.so.6:KContacts::Sound::operator=(KContacts::Sound const&)
-libKF6Contacts.so.6:KContacts::Title::setTitle(QString const&)
-libKF6Contacts.so.6:KContacts::Title::setParams(KContacts::ParameterMap const&)
-libKF6Contacts.so.6:KContacts::Title::Title(QString const&)
-libKF6Contacts.so.6:KContacts::Title::Title(KContacts::Title const&)
-libKF6Contacts.so.6:KContacts::Title::Title()
-libKF6Contacts.so.6:KContacts::Title::Title(QString const&)
-libKF6Contacts.so.6:KContacts::Title::Title(KContacts::Title const&)
-libKF6Contacts.so.6:KContacts::Title::Title()
-libKF6Contacts.so.6:KContacts::Title::~Title()
-libKF6Contacts.so.6:KContacts::Title::~Title()
-libKF6Contacts.so.6:KContacts::Title::operator=(KContacts::Title const&)
-libKF6Contacts.so.6:KContacts::Gender::setComment(QString const&)
-libKF6Contacts.so.6:KContacts::Gender::setGender(QString const&)
-libKF6Contacts.so.6:KContacts::Gender::Gender(QString const&)
-libKF6Contacts.so.6:KContacts::Gender::Gender(KContacts::Gender const&)
-libKF6Contacts.so.6:KContacts::Gender::Gender()
-libKF6Contacts.so.6:KContacts::Gender::Gender(QString const&)
-libKF6Contacts.so.6:KContacts::Gender::Gender(KContacts::Gender const&)
-libKF6Contacts.so.6:KContacts::Gender::Gender()
-libKF6Contacts.so.6:KContacts::Gender::~Gender()
-libKF6Contacts.so.6:KContacts::Gender::~Gender()
-libKF6Contacts.so.6:KContacts::Gender::operator=(KContacts::Gender const&)
-libKF6Contacts.so.6:KContacts::Address::labelLabel()
-libKF6Contacts.so.6:KContacts::Address::setCountry(QString const&)
-libKF6Contacts.so.6:KContacts::Address::regionLabel()
-libKF6Contacts.so.6:KContacts::Address::setExtended(QString const&)
-libKF6Contacts.so.6:KContacts::Address::setLocality(QString const&)
-libKF6Contacts.so.6:KContacts::Address::streetLabel()
+libKF6Contacts.so.6:KContacts::Address::Address()
+libKF6Contacts.so.6:KContacts::Address::Address(QFlags<KContacts::Address::TypeFlag>)
+libKF6Contacts.so.6:KContacts::Address::clear()
 libKF6Contacts.so.6:KContacts::Address::countryLabel()
 libKF6Contacts.so.6:KContacts::Address::extendedLabel()
+libKF6Contacts.so.6:KContacts::Address::labelLabel()
 libKF6Contacts.so.6:KContacts::Address::localityLabel()
-libKF6Contacts.so.6:KContacts::Address::setPostalCode(QString const&)
-libKF6Contacts.so.6:KContacts::Address::typeFlagLabel(KContacts::Address::TypeFlag)
-libKF6Contacts.so.6:KContacts::Address::postalCodeLabel()
-libKF6Contacts.so.6:KContacts::Address::setPostOfficeBox(QString const&)
 libKF6Contacts.so.6:KContacts::Address::postOfficeBoxLabel()
-libKF6Contacts.so.6:KContacts::Address::clear()
-libKF6Contacts.so.6:KContacts::Address::setId(QString const&)
-libKF6Contacts.so.6:KContacts::Address::setGeo(KContacts::Geo const&)
+libKF6Contacts.so.6:KContacts::Address::postalCodeLabel()
+libKF6Contacts.so.6:KContacts::Address::regionLabel()
 libKF6Contacts.so.6:KContacts::Address::setType(QFlags<KContacts::Address::TypeFlag>)
-libKF6Contacts.so.6:KContacts::Address::setLabel(QString const&)
-libKF6Contacts.so.6:KContacts::Address::typeList()
-libKF6Contacts.so.6:KContacts::Address::setRegion(QString const&)
-libKF6Contacts.so.6:KContacts::Address::setStreet(QString const&)
+libKF6Contacts.so.6:KContacts::Address::streetLabel()
+libKF6Contacts.so.6:KContacts::Address::typeFlagLabel(KContacts::Address::TypeFlag)
 libKF6Contacts.so.6:KContacts::Address::typeLabel(QFlags<KContacts::Address::TypeFlag>)
-libKF6Contacts.so.6:KContacts::Address::Address(QFlags<KContacts::Address::TypeFlag>)
-libKF6Contacts.so.6:KContacts::Address::Address(KContacts::Address const&)
-libKF6Contacts.so.6:KContacts::Address::Address()
-libKF6Contacts.so.6:KContacts::Address::Address(QFlags<KContacts::Address::TypeFlag>)
-libKF6Contacts.so.6:KContacts::Address::Address(KContacts::Address const&)
-libKF6Contacts.so.6:KContacts::Address::Address()
+libKF6Contacts.so.6:KContacts::Address::typeList()
 libKF6Contacts.so.6:KContacts::Address::~Address()
-libKF6Contacts.so.6:KContacts::Address::~Address()
-libKF6Contacts.so.6:KContacts::Address::operator=(KContacts::Address const&)
-libKF6Contacts.so.6:KContacts::Picture::setRawData(QByteArray const&, QString const&)
-libKF6Contacts.so.6:KContacts::Picture::setUrl(QString const&)
-libKF6Contacts.so.6:KContacts::Picture::setUrl(QString const&, QString const&)
-libKF6Contacts.so.6:KContacts::Picture::setData(QImage const&)
-libKF6Contacts.so.6:KContacts::Picture::Picture(QImage const&)
-libKF6Contacts.so.6:KContacts::Picture::Picture(QString const&)
-libKF6Contacts.so.6:KContacts::Picture::Picture(KContacts::Picture const&)
-libKF6Contacts.so.6:KContacts::Picture::Picture()
-libKF6Contacts.so.6:KContacts::Picture::Picture(QImage const&)
-libKF6Contacts.so.6:KContacts::Picture::Picture(QString const&)
-libKF6Contacts.so.6:KContacts::Picture::Picture(KContacts::Picture const&)
-libKF6Contacts.so.6:KContacts::Picture::Picture()
-libKF6Contacts.so.6:KContacts::Picture::~Picture()
-libKF6Contacts.so.6:KContacts::Picture::~Picture()
-libKF6Contacts.so.6:KContacts::Picture::operator=(KContacts::Picture const&)
-libKF6Contacts.so.6:KContacts::Related::setRelated(QString const&)
-libKF6Contacts.so.6:KContacts::Related::setParams(KContacts::ParameterMap const&)
-libKF6Contacts.so.6:KContacts::Related::Related(QString const&)
-libKF6Contacts.so.6:KContacts::Related::Related(KContacts::Related const&)
-libKF6Contacts.so.6:KContacts::Related::Related()
-libKF6Contacts.so.6:KContacts::Related::Related(QString const&)
-libKF6Contacts.so.6:KContacts::Related::Related(KContacts::Related const&)
-libKF6Contacts.so.6:KContacts::Related::Related()
-libKF6Contacts.so.6:KContacts::Related::~Related()
-libKF6Contacts.so.6:KContacts::Related::~Related()
-libKF6Contacts.so.6:KContacts::Related::operator=(KContacts::Related const&)
-libKF6Contacts.so.6:KContacts::Secrecy::setType(KContacts::Secrecy::Type)
-libKF6Contacts.so.6:KContacts::Secrecy::typeList()
-libKF6Contacts.so.6:KContacts::Secrecy::typeLabel(KContacts::Secrecy::Type)
-libKF6Contacts.so.6:KContacts::Secrecy::Secrecy(KContacts::Secrecy::Type)
-libKF6Contacts.so.6:KContacts::Secrecy::Secrecy(KContacts::Secrecy const&)
-libKF6Contacts.so.6:KContacts::Secrecy::Secrecy(KContacts::Secrecy::Type)
-libKF6Contacts.so.6:KContacts::Secrecy::Secrecy(KContacts::Secrecy const&)
-libKF6Contacts.so.6:KContacts::Secrecy::~Secrecy()
-libKF6Contacts.so.6:KContacts::Secrecy::~Secrecy()
-libKF6Contacts.so.6:KContacts::Secrecy::operator=(KContacts::Secrecy const&)
-libKF6Contacts.so.6:KContacts::NickName::setNickName(QString const&)
-libKF6Contacts.so.6:KContacts::NickName::setParams(KContacts::ParameterMap const&)
-libKF6Contacts.so.6:KContacts::NickName::NickName(QString const&)
-libKF6Contacts.so.6:KContacts::NickName::NickName(KContacts::NickName const&)
-libKF6Contacts.so.6:KContacts::NickName::NickName()
-libKF6Contacts.so.6:KContacts::NickName::NickName(QString const&)
-libKF6Contacts.so.6:KContacts::NickName::NickName(KContacts::NickName const&)
-libKF6Contacts.so.6:KContacts::NickName::NickName()
-libKF6Contacts.so.6:KContacts::NickName::~NickName()
-libKF6Contacts.so.6:KContacts::NickName::~NickName()
-libKF6Contacts.so.6:KContacts::NickName::operator=(KContacts::NickName const&)
-libKF6Contacts.so.6:KContacts::TimeZone::setOffset(int)
-libKF6Contacts.so.6:KContacts::TimeZone::TimeZone(KContacts::TimeZone const&)
-libKF6Contacts.so.6:KContacts::TimeZone::TimeZone(int)
-libKF6Contacts.so.6:KContacts::TimeZone::TimeZone()
-libKF6Contacts.so.6:KContacts::TimeZone::TimeZone(KContacts::TimeZone const&)
-libKF6Contacts.so.6:KContacts::TimeZone::TimeZone(int)
-libKF6Contacts.so.6:KContacts::TimeZone::TimeZone()
-libKF6Contacts.so.6:KContacts::TimeZone::~TimeZone()
-libKF6Contacts.so.6:KContacts::TimeZone::~TimeZone()
-libKF6Contacts.so.6:KContacts::TimeZone::operator=(KContacts::TimeZone const&)
-libKF6Contacts.so.6:KContacts::Addressee::emailLabel()
-libKF6Contacts.so.6:KContacts::Addressee::insertImpp(KContacts::Impp const&)
-libKF6Contacts.so.6:KContacts::Addressee::insertLang(KContacts::Lang const&)
-libKF6Contacts.so.6:KContacts::Addressee::pagerLabel()
-libKF6Contacts.so.6:KContacts::Addressee::photoLabel()
-libKF6Contacts.so.6:KContacts::Addressee::removeLang(QString const&)
-libKF6Contacts.so.6:KContacts::Addressee::setChanged(bool)
-libKF6Contacts.so.6:KContacts::Addressee::setCustoms(QList<QString> const&)
-libKF6Contacts.so.6:KContacts::Addressee::setMembers(QList<QString> const&)
-libKF6Contacts.so.6:KContacts::Addressee::setSecrecy(KContacts::Secrecy const&)
-libKF6Contacts.so.6:KContacts::Addressee::soundLabel()
-libKF6Contacts.so.6:KContacts::Addressee::titleLabel()
-libKF6Contacts.so.6:KContacts::Addressee::mailerLabel()
-libKF6Contacts.so.6:KContacts::Addressee::prefixLabel()
-libKF6Contacts.so.6:KContacts::Addressee::removeEmail(QString const&)
-libKF6Contacts.so.6:KContacts::Addressee::setBirthday(QDate const&)
-libKF6Contacts.so.6:KContacts::Addressee::setBirthday(QDateTime const&, bool)
-libKF6Contacts.so.6:KContacts::Addressee::setBlogFeed(QUrl const&)
-libKF6Contacts.so.6:KContacts::Addressee::setImppList(QList<KContacts::Impp> const&)
-libKF6Contacts.so.6:KContacts::Addressee::setNickName(QString const&)
-libKF6Contacts.so.6:KContacts::Addressee::setNickName(KContacts::NickName const&)
-libKF6Contacts.so.6:KContacts::Addressee::setRevision(QDateTime const&)
-libKF6Contacts.so.6:KContacts::Addressee::setTimeZone(KContacts::TimeZone const&)
-libKF6Contacts.so.6:KContacts::Addressee::suffixLabel()
-libKF6Contacts.so.6:KContacts::Addressee::homeFaxLabel()
-libKF6Contacts.so.6:KContacts::Addressee::insertCustom(QString const&, QString const&, QString const&)
-libKF6Contacts.so.6:KContacts::Addressee::insertMember(QString const&)
-libKF6Contacts.so.6:KContacts::Addressee::removeCustom(QString const&, QString const&)
-libKF6Contacts.so.6:KContacts::Addressee::secrecyLabel()
-libKF6Contacts.so.6:KContacts::Addressee::setAddresses(QList<KContacts::Address> const&)
-libKF6Contacts.so.6:KContacts::Addressee::setEmailList(QList<KContacts::Email> const&)
-libKF6Contacts.so.6:KContacts::Addressee::setGivenName(QString const&)
-libKF6Contacts.so.6:KContacts::Addressee::setProductId(QString const&)
-libKF6Contacts.so.6:KContacts::Addressee::birthdayLabel()
-libKF6Contacts.so.6:KContacts::Addressee::carPhoneLabel()
-libKF6Contacts.so.6:KContacts::Addressee::insertAddress(KContacts::Address const&)
-libKF6Contacts.so.6:KContacts::Addressee::nickNameLabel()
-libKF6Contacts.so.6:KContacts::Addressee::removeAddress(KContacts::Address const&)
-libKF6Contacts.so.6:KContacts::Addressee::revisionLabel()
-libKF6Contacts.so.6:KContacts::Addressee::setCategories(QList<QString> const&)
-libKF6Contacts.so.6:KContacts::Addressee::setDepartment(QString const&)
-libKF6Contacts.so.6:KContacts::Addressee::setFamilyName(QString const&)
-libKF6Contacts.so.6:KContacts::Addressee::setProfession(QString const&)
-libKF6Contacts.so.6:KContacts::Addressee::setSortString(QString const&)
-libKF6Contacts.so.6:KContacts::Addressee::timeZoneLabel()
-libKF6Contacts.so.6:KContacts::Addressee::givenNameLabel()
-libKF6Contacts.so.6:KContacts::Addressee::homePhoneLabel()
-libKF6Contacts.so.6:KContacts::Addressee::insertCategory(QString const&)
-libKF6Contacts.so.6:KContacts::Addressee::insertExtraUrl(KContacts::ResourceLocatorUrl const&)
-libKF6Contacts.so.6:KContacts::Addressee::productIdLabel()
-libKF6Contacts.so.6:KContacts::Addressee::removeCategory(QString const&)
-libKF6Contacts.so.6:KContacts::Addressee::setAnniversary(QDate const&)
-libKF6Contacts.so.6:KContacts::Addressee::setSpousesName(QString const&)
-libKF6Contacts.so.6:KContacts::Addressee::departmentLabel()
-libKF6Contacts.so.6:KContacts::Addressee::familyNameLabel()
-libKF6Contacts.so.6:KContacts::Addressee::insertExtraLogo(KContacts::Picture const&)
-libKF6Contacts.so.6:KContacts::Addressee::insertExtraRole(KContacts::Role const&)
-libKF6Contacts.so.6:KContacts::Addressee::insertSourceUrl(QUrl const&)
-libKF6Contacts.so.6:KContacts::Addressee::setExtraUrlList(QList<KContacts::ResourceLocatorUrl> const&)
-libKF6Contacts.so.6:KContacts::Addressee::setManagersName(QString const&)
-libKF6Contacts.so.6:KContacts::Addressee::setOrganization(QString const&)
-libKF6Contacts.so.6:KContacts::Addressee::setOrganization(KContacts::Org const&)
-libKF6Contacts.so.6:KContacts::Addressee::setPhoneNumbers(QList<KContacts::PhoneNumber> const&)
-libKF6Contacts.so.6:KContacts::Addressee::sortStringLabel()
-libKF6Contacts.so.6:KContacts::Addressee::businessFaxLabel()
-libKF6Contacts.so.6:KContacts::Addressee::insertExtraPhoto(KContacts::Picture const&)
-libKF6Contacts.so.6:KContacts::Addressee::insertExtraSound(KContacts::Sound const&)
-libKF6Contacts.so.6:KContacts::Addressee::insertExtraTitle(KContacts::Title const&)
-libKF6Contacts.so.6:KContacts::Addressee::insertFieldGroup(KContacts::FieldGroup const&)
-libKF6Contacts.so.6:KContacts::Addressee::mobilePhoneLabel()
-libKF6Contacts.so.6:KContacts::Addressee::setExtraLogoList(QList<KContacts::Picture> const&)
-libKF6Contacts.so.6:KContacts::Addressee::setExtraRoleList(QList<KContacts::Role> const&)
-libKF6Contacts.so.6:KContacts::Addressee::setFormattedName(QString const&)
-libKF6Contacts.so.6:KContacts::Addressee::setRelationships(QList<KContacts::Related> const&)
-libKF6Contacts.so.6:KContacts::Addressee::insertCalendarUrl(KContacts::CalendarUrl const&)
-libKF6Contacts.so.6:KContacts::Addressee::insertPhoneNumber(KContacts::PhoneNumber const&)
-libKF6Contacts.so.6:KContacts::Addressee::organizationLabel()
-libKF6Contacts.so.6:KContacts::Addressee::parseEmailAddress(QString const&, QString&, QString&)
-libKF6Contacts.so.6:KContacts::Addressee::removePhoneNumber(KContacts::PhoneNumber const&)
-libKF6Contacts.so.6:KContacts::Addressee::setAdditionalName(QString const&)
-libKF6Contacts.so.6:KContacts::Addressee::setAssistantsName(QString const&)
-libKF6Contacts.so.6:KContacts::Addressee::setExtraPhotoList(QList<KContacts::Picture> const&)
-libKF6Contacts.so.6:KContacts::Addressee::setExtraSoundList(QList<KContacts::Sound> const&)
-libKF6Contacts.so.6:KContacts::Addressee::setExtraTitleList(QList<KContacts::Title> const&)
-libKF6Contacts.so.6:KContacts::Addressee::setFieldGroupList(QList<KContacts::FieldGroup> const&)
-libKF6Contacts.so.6:KContacts::Addressee::setNameFromString(QString const&)
-libKF6Contacts.so.6:KContacts::Addressee::setSourcesUrlList(QList<QUrl> const&)
-libKF6Contacts.so.6:KContacts::Addressee::businessPhoneLabel()
-libKF6Contacts.so.6:KContacts::Addressee::formattedNameLabel()
-libKF6Contacts.so.6:KContacts::Addressee::insertClientPidMap(KContacts::ClientPidMap const&)
-libKF6Contacts.so.6:KContacts::Addressee::insertRelationship(KContacts::Related const&)
+libKF6Contacts.so.6:KContacts::AddressFormat::AddressFormat()
+libKF6Contacts.so.6:KContacts::AddressFormat::~AddressFormat()
+libKF6Contacts.so.6:KContacts::AddressFormatElement::AddressFormatElement()
+libKF6Contacts.so.6:KContacts::AddressFormatElement::~AddressFormatElement()
+libKF6Contacts.so.6:KContacts::Addressee::Addressee()
 libKF6Contacts.so.6:KContacts::Addressee::additionalNameLabel()
-libKF6Contacts.so.6:KContacts::Addressee::insertExtraNickName(KContacts::NickName const&)
-libKF6Contacts.so.6:KContacts::Addressee::setClientPidMapList(QList<KContacts::ClientPidMap> const&)
-libKF6Contacts.so.6:KContacts::Addressee::setExtraNickNameList(QList<KContacts::NickName> const&)
-libKF6Contacts.so.6:KContacts::Addressee::homeAddressLabelLabel()
-libKF6Contacts.so.6:KContacts::Addressee::homeAddressRegionLabel()
-libKF6Contacts.so.6:KContacts::Addressee::homeAddressStreetLabel()
-libKF6Contacts.so.6:KContacts::Addressee::homeAddressCountryLabel()
-libKF6Contacts.so.6:KContacts::Addressee::insertExtraOrganization(KContacts::Org const&)
-libKF6Contacts.so.6:KContacts::Addressee::homeAddressLocalityLabel()
-libKF6Contacts.so.6:KContacts::Addressee::setExtraOrganizationList(QList<KContacts::Org> const&)
+libKF6Contacts.so.6:KContacts::Addressee::birthdayLabel()
+libKF6Contacts.so.6:KContacts::Addressee::businessAddressCountryLabel()
 libKF6Contacts.so.6:KContacts::Addressee::businessAddressLabelLabel()
+libKF6Contacts.so.6:KContacts::Addressee::businessAddressLocalityLabel()
+libKF6Contacts.so.6:KContacts::Addressee::businessAddressPostOfficeBoxLabel()
+libKF6Contacts.so.6:KContacts::Addressee::businessAddressPostalCodeLabel()
 libKF6Contacts.so.6:KContacts::Addressee::businessAddressRegionLabel()
 libKF6Contacts.so.6:KContacts::Addressee::businessAddressStreetLabel()
-libKF6Contacts.so.6:KContacts::Addressee::homeAddressPostalCodeLabel()
-libKF6Contacts.so.6:KContacts::Addressee::businessAddressCountryLabel()
-libKF6Contacts.so.6:KContacts::Addressee::businessAddressLocalityLabel()
-libKF6Contacts.so.6:KContacts::Addressee::homeAddressPostOfficeBoxLabel()
-libKF6Contacts.so.6:KContacts::Addressee::businessAddressPostalCodeLabel()
-libKF6Contacts.so.6:KContacts::Addressee::businessAddressPostOfficeBoxLabel()
-libKF6Contacts.so.6:KContacts::Addressee::setGeo(KContacts::Geo const&)
-libKF6Contacts.so.6:KContacts::Addressee::setUid(QString const&)
-libKF6Contacts.so.6:KContacts::Addressee::setUrl(QUrl const&)
-libKF6Contacts.so.6:KContacts::Addressee::setUrl(KContacts::ResourceLocatorUrl const&)
-libKF6Contacts.so.6:KContacts::Addressee::setKeys(QList<KContacts::Key> const&)
-libKF6Contacts.so.6:KContacts::Addressee::setKind(QString const&)
-libKF6Contacts.so.6:KContacts::Addressee::setLogo(KContacts::Picture const&)
-libKF6Contacts.so.6:KContacts::Addressee::setName(QString const&)
-libKF6Contacts.so.6:KContacts::Addressee::setNote(QString const&)
-libKF6Contacts.so.6:KContacts::Addressee::setRole(QString const&)
-libKF6Contacts.so.6:KContacts::Addressee::setRole(KContacts::Role const&)
-libKF6Contacts.so.6:KContacts::Addressee::addEmail(KContacts::Email const&)
+libKF6Contacts.so.6:KContacts::Addressee::businessFaxLabel()
+libKF6Contacts.so.6:KContacts::Addressee::businessPhoneLabel()
+libKF6Contacts.so.6:KContacts::Addressee::carPhoneLabel()
+libKF6Contacts.so.6:KContacts::Addressee::departmentLabel()
+libKF6Contacts.so.6:KContacts::Addressee::emailLabel()
+libKF6Contacts.so.6:KContacts::Addressee::familyNameLabel()
+libKF6Contacts.so.6:KContacts::Addressee::formattedNameLabel()
 libKF6Contacts.so.6:KContacts::Addressee::geoLabel()
-libKF6Contacts.so.6:KContacts::Addressee::mimeType()
-libKF6Contacts.so.6:KContacts::Addressee::setLangs(QList<KContacts::Lang> const&)
-libKF6Contacts.so.6:KContacts::Addressee::setPhoto(KContacts::Picture const&)
-libKF6Contacts.so.6:KContacts::Addressee::setSound(KContacts::Sound const&)
-libKF6Contacts.so.6:KContacts::Addressee::setTitle(QString const&)
-libKF6Contacts.so.6:KContacts::Addressee::setTitle(KContacts::Title const&)
-libKF6Contacts.so.6:KContacts::Addressee::uidLabel()
-libKF6Contacts.so.6:KContacts::Addressee::urlLabel()
-libKF6Contacts.so.6:KContacts::Addressee::insertKey(KContacts::Key const&)
+libKF6Contacts.so.6:KContacts::Addressee::givenNameLabel()
+libKF6Contacts.so.6:KContacts::Addressee::homeAddressCountryLabel()
+libKF6Contacts.so.6:KContacts::Addressee::homeAddressLabelLabel()
+libKF6Contacts.so.6:KContacts::Addressee::homeAddressLocalityLabel()
+libKF6Contacts.so.6:KContacts::Addressee::homeAddressPostOfficeBoxLabel()
+libKF6Contacts.so.6:KContacts::Addressee::homeAddressPostalCodeLabel()
+libKF6Contacts.so.6:KContacts::Addressee::homeAddressRegionLabel()
+libKF6Contacts.so.6:KContacts::Addressee::homeAddressStreetLabel()
+libKF6Contacts.so.6:KContacts::Addressee::homeFaxLabel()
+libKF6Contacts.so.6:KContacts::Addressee::homePhoneLabel()
 libKF6Contacts.so.6:KContacts::Addressee::isdnLabel()
 libKF6Contacts.so.6:KContacts::Addressee::logoLabel()
+libKF6Contacts.so.6:KContacts::Addressee::mailerLabel()
+libKF6Contacts.so.6:KContacts::Addressee::mimeType()
+libKF6Contacts.so.6:KContacts::Addressee::mobilePhoneLabel()
 libKF6Contacts.so.6:KContacts::Addressee::nameLabel()
+libKF6Contacts.so.6:KContacts::Addressee::nickNameLabel()
 libKF6Contacts.so.6:KContacts::Addressee::noteLabel()
-libKF6Contacts.so.6:KContacts::Addressee::removeKey(KContacts::Key const&)
+libKF6Contacts.so.6:KContacts::Addressee::organizationLabel()
+libKF6Contacts.so.6:KContacts::Addressee::pagerLabel()
+libKF6Contacts.so.6:KContacts::Addressee::photoLabel()
+libKF6Contacts.so.6:KContacts::Addressee::prefixLabel()
+libKF6Contacts.so.6:KContacts::Addressee::productIdLabel()
+libKF6Contacts.so.6:KContacts::Addressee::revisionLabel()
 libKF6Contacts.so.6:KContacts::Addressee::roleLabel()
-libKF6Contacts.so.6:KContacts::Addressee::setEmails(QList<QString> const&)
-libKF6Contacts.so.6:KContacts::Addressee::setGender(KContacts::Gender const&)
-libKF6Contacts.so.6:KContacts::Addressee::setMailer(QString const&)
-libKF6Contacts.so.6:KContacts::Addressee::setOffice(QString const&)
-libKF6Contacts.so.6:KContacts::Addressee::setPrefix(QString const&)
-libKF6Contacts.so.6:KContacts::Addressee::setSuffix(QString const&)
-libKF6Contacts.so.6:KContacts::Addressee::Addressee(KContacts::Addressee const&)
-libKF6Contacts.so.6:KContacts::Addressee::Addressee()
-libKF6Contacts.so.6:KContacts::Addressee::Addressee(KContacts::Addressee const&)
-libKF6Contacts.so.6:KContacts::Addressee::Addressee()
+libKF6Contacts.so.6:KContacts::Addressee::secrecyLabel()
+libKF6Contacts.so.6:KContacts::Addressee::setChanged(bool)
+libKF6Contacts.so.6:KContacts::Addressee::sortStringLabel()
+libKF6Contacts.so.6:KContacts::Addressee::soundLabel()
+libKF6Contacts.so.6:KContacts::Addressee::suffixLabel()
+libKF6Contacts.so.6:KContacts::Addressee::timeZoneLabel()
+libKF6Contacts.so.6:KContacts::Addressee::titleLabel()
+libKF6Contacts.so.6:KContacts::Addressee::uidLabel()
+libKF6Contacts.so.6:KContacts::Addressee::urlLabel()
 libKF6Contacts.so.6:KContacts::Addressee::~Addressee()
-libKF6Contacts.so.6:KContacts::Addressee::~Addressee()
-libKF6Contacts.so.6:KContacts::Addressee::operator=(KContacts::Addressee const&)
-libKF6Contacts.so.6:KContacts::VCardDrag::fromMimeData(QMimeData const*, QByteArray&)
-libKF6Contacts.so.6:KContacts::VCardDrag::fromMimeData(QMimeData const*, QList<KContacts::Addressee>&)
-libKF6Contacts.so.6:KContacts::VCardDrag::populateMimeData(QMimeData*, QByteArray const&)
-libKF6Contacts.so.6:KContacts::VCardDrag::populateMimeData(QMimeData*, QList<KContacts::Addressee> const&)
-libKF6Contacts.so.6:KContacts::VCardDrag::canDecode(QMimeData const*)
-libKF6Contacts.so.6:KContacts::VCardLine::addParameter(QString const&, QString const&)
-libKF6Contacts.so.6:KContacts::VCardLine::addParameters(KContacts::ParameterMap const&)
-libKF6Contacts.so.6:KContacts::VCardLine::setIdentifier(QString const&)
-libKF6Contacts.so.6:KContacts::VCardLine::setGroup(QString const&)
-libKF6Contacts.so.6:KContacts::VCardLine::setValue(QVariant const&)
-libKF6Contacts.so.6:KContacts::VCardLine::VCardLine(QString const&)
-libKF6Contacts.so.6:KContacts::VCardLine::VCardLine(QString const&, QVariant const&)
-libKF6Contacts.so.6:KContacts::VCardLine::VCardLine(KContacts::VCardLine const&)
-libKF6Contacts.so.6:KContacts::VCardLine::VCardLine()
-libKF6Contacts.so.6:KContacts::VCardLine::VCardLine(QString const&)
-libKF6Contacts.so.6:KContacts::VCardLine::VCardLine(QString const&, QVariant const&)
-libKF6Contacts.so.6:KContacts::VCardLine::VCardLine(KContacts::VCardLine const&)
+libKF6Contacts.so.6:KContacts::CalendarUrl::CalendarUrl()
+libKF6Contacts.so.6:KContacts::CalendarUrl::CalendarUrl(KContacts::CalendarUrl::CalendarType)
+libKF6Contacts.so.6:KContacts::CalendarUrl::setType(KContacts::CalendarUrl::CalendarType)
+libKF6Contacts.so.6:KContacts::CalendarUrl::~CalendarUrl()
+libKF6Contacts.so.6:KContacts::ClientPidMap::ClientPidMap()
+libKF6Contacts.so.6:KContacts::ClientPidMap::~ClientPidMap()
+libKF6Contacts.so.6:KContacts::ContactGroup::ContactGroup()
+libKF6Contacts.so.6:KContacts::ContactGroup::ContactGroupReference::ContactGroupReference()
+libKF6Contacts.so.6:KContacts::ContactGroup::ContactGroupReference::~ContactGroupReference()
+libKF6Contacts.so.6:KContacts::ContactGroup::ContactReference::ContactReference()
+libKF6Contacts.so.6:KContacts::ContactGroup::ContactReference::~ContactReference()
+libKF6Contacts.so.6:KContacts::ContactGroup::Data::Data()
+libKF6Contacts.so.6:KContacts::ContactGroup::Data::~Data()
+libKF6Contacts.so.6:KContacts::ContactGroup::contactGroupReference(int)
+libKF6Contacts.so.6:KContacts::ContactGroup::contactReference(int)
+libKF6Contacts.so.6:KContacts::ContactGroup::data(int)
+libKF6Contacts.so.6:KContacts::ContactGroup::mimeType()
+libKF6Contacts.so.6:KContacts::ContactGroup::removeAllContactData()
+libKF6Contacts.so.6:KContacts::ContactGroup::removeAllContactGroupReferences()
+libKF6Contacts.so.6:KContacts::ContactGroup::removeAllContactReferences()
+libKF6Contacts.so.6:KContacts::ContactGroup::~ContactGroup()
+libKF6Contacts.so.6:KContacts::Email::Email()
+libKF6Contacts.so.6:KContacts::Email::setPreferred(bool)
+libKF6Contacts.so.6:KContacts::Email::setType(QFlags<KContacts::Email::TypeFlag>)
+libKF6Contacts.so.6:KContacts::Email::~Email()
+libKF6Contacts.so.6:KContacts::FieldGroup::FieldGroup()
+libKF6Contacts.so.6:KContacts::FieldGroup::~FieldGroup()
+libKF6Contacts.so.6:KContacts::Gender::Gender()
+libKF6Contacts.so.6:KContacts::Gender::~Gender()
+libKF6Contacts.so.6:KContacts::Geo::Geo()
+libKF6Contacts.so.6:KContacts::Geo::clear()
+libKF6Contacts.so.6:KContacts::Geo::setLatitude(float)
+libKF6Contacts.so.6:KContacts::Geo::setLongitude(float)
+libKF6Contacts.so.6:KContacts::Geo::~Geo()
+libKF6Contacts.so.6:KContacts::Impp::Impp()
+libKF6Contacts.so.6:KContacts::Impp::serviceTypes()
+libKF6Contacts.so.6:KContacts::Impp::setPreferred(bool)
+libKF6Contacts.so.6:KContacts::Impp::~Impp()
+libKF6Contacts.so.6:KContacts::Key::setType(KContacts::Key::Type)
+libKF6Contacts.so.6:KContacts::Key::typeLabel(KContacts::Key::Type)
+libKF6Contacts.so.6:KContacts::Key::typeList()
+libKF6Contacts.so.6:KContacts::Key::~Key()
+libKF6Contacts.so.6:KContacts::Lang::Lang()
+libKF6Contacts.so.6:KContacts::Lang::~Lang()
+libKF6Contacts.so.6:KContacts::NickName::NickName()
+libKF6Contacts.so.6:KContacts::NickName::~NickName()
+libKF6Contacts.so.6:KContacts::Note::Note()
+libKF6Contacts.so.6:KContacts::Note::~Note()
+libKF6Contacts.so.6:KContacts::Org::Org()
+libKF6Contacts.so.6:KContacts::Org::~Org()
+libKF6Contacts.so.6:KContacts::PhoneNumber::PhoneNumber()
+libKF6Contacts.so.6:KContacts::PhoneNumber::setType(QFlags<KContacts::PhoneNumber::TypeFlag>)
+libKF6Contacts.so.6:KContacts::PhoneNumber::typeFlagLabel(KContacts::PhoneNumber::TypeFlag)
+libKF6Contacts.so.6:KContacts::PhoneNumber::typeLabel(QFlags<KContacts::PhoneNumber::TypeFlag>)
+libKF6Contacts.so.6:KContacts::PhoneNumber::typeList()
+libKF6Contacts.so.6:KContacts::PhoneNumber::~PhoneNumber()
+libKF6Contacts.so.6:KContacts::Picture::Picture()
+libKF6Contacts.so.6:KContacts::Picture::~Picture()
+libKF6Contacts.so.6:KContacts::Related::Related()
+libKF6Contacts.so.6:KContacts::Related::~Related()
+libKF6Contacts.so.6:KContacts::ResourceLocatorUrl::ResourceLocatorUrl()
+libKF6Contacts.so.6:KContacts::ResourceLocatorUrl::setPreferred(bool)
+libKF6Contacts.so.6:KContacts::ResourceLocatorUrl::setType(QFlags<KContacts::ResourceLocatorUrl::TypeFlag>)
+libKF6Contacts.so.6:KContacts::ResourceLocatorUrl::~ResourceLocatorUrl()
+libKF6Contacts.so.6:KContacts::Role::Role()
+libKF6Contacts.so.6:KContacts::Role::~Role()
+libKF6Contacts.so.6:KContacts::Secrecy::Secrecy(KContacts::Secrecy::Type)
+libKF6Contacts.so.6:KContacts::Secrecy::setType(KContacts::Secrecy::Type)
+libKF6Contacts.so.6:KContacts::Secrecy::typeLabel(KContacts::Secrecy::Type)
+libKF6Contacts.so.6:KContacts::Secrecy::typeList()
+libKF6Contacts.so.6:KContacts::Secrecy::~Secrecy()
+libKF6Contacts.so.6:KContacts::Sound::Sound()
+libKF6Contacts.so.6:KContacts::Sound::~Sound()
+libKF6Contacts.so.6:KContacts::TimeZone::TimeZone()
+libKF6Contacts.so.6:KContacts::TimeZone::TimeZone(int)
+libKF6Contacts.so.6:KContacts::TimeZone::setOffset(int)
+libKF6Contacts.so.6:KContacts::TimeZone::~TimeZone()
+libKF6Contacts.so.6:KContacts::Title::Title()
+libKF6Contacts.so.6:KContacts::Title::~Title()
+libKF6Contacts.so.6:KContacts::VCardConverter::VCardConverter()
+libKF6Contacts.so.6:KContacts::VCardConverter::~VCardConverter()
 libKF6Contacts.so.6:KContacts::VCardLine::VCardLine()
 libKF6Contacts.so.6:KContacts::VCardLine::~VCardLine()
-libKF6Contacts.so.6:KContacts::VCardLine::~VCardLine()
-libKF6Contacts.so.6:KContacts::VCardLine::operator=(KContacts::VCardLine const&)
-libKF6Contacts.so.6:KContacts::VCardTool::createDate(QDate const&, KContacts::VCard::Version)
-libKF6Contacts.so.6:KContacts::VCardTool::createTime(QTime const&, KContacts::VCard::Version)
-libKF6Contacts.so.6:KContacts::VCardTool::parseDateTime(QString const&, bool*)
-libKF6Contacts.so.6:KContacts::VCardTool::createDateTime(QDateTime const&, KContacts::VCard::Version, bool)
-libKF6Contacts.so.6:KContacts::VCardTool::VCardTool()
 libKF6Contacts.so.6:KContacts::VCardTool::VCardTool()
 libKF6Contacts.so.6:KContacts::VCardTool::~VCardTool()
-libKF6Contacts.so.6:KContacts::VCardTool::~VCardTool()
-libKF6Contacts.so.6:KContacts::operator<<(QDataStream&, KContacts::FieldGroup const&)
-libKF6Contacts.so.6:KContacts::operator<<(QDataStream&, KContacts::CalendarUrl const&)
-libKF6Contacts.so.6:KContacts::operator<<(QDataStream&, KContacts::PhoneNumber const&)
-libKF6Contacts.so.6:KContacts::operator<<(QDataStream&, KContacts::ClientPidMap const&)
-libKF6Contacts.so.6:KContacts::operator<<(QDataStream&, KContacts::ResourceLocatorUrl const&)
-libKF6Contacts.so.6:KContacts::operator<<(QDataStream&, KContacts::Geo const&)
-libKF6Contacts.so.6:KContacts::operator<<(QDataStream&, KContacts::Key const&)
-libKF6Contacts.so.6:KContacts::operator<<(QDataStream&, KContacts::Org const&)
-libKF6Contacts.so.6:KContacts::operator<<(QDataStream&, KContacts::Impp const&)
-libKF6Contacts.so.6:KContacts::operator<<(QDataStream&, KContacts::Lang const&)
-libKF6Contacts.so.6:KContacts::operator<<(QDataStream&, KContacts::Note const&)
-libKF6Contacts.so.6:KContacts::operator<<(QDataStream&, KContacts::Role const&)
-libKF6Contacts.so.6:KContacts::operator<<(QDataStream&, KContacts::Email const&)
-libKF6Contacts.so.6:KContacts::operator<<(QDataStream&, KContacts::Sound const&)
-libKF6Contacts.so.6:KContacts::operator<<(QDataStream&, KContacts::Title const&)
-libKF6Contacts.so.6:KContacts::operator<<(QDataStream&, KContacts::Gender const&)
-libKF6Contacts.so.6:KContacts::operator<<(QDataStream&, KContacts::Address const&)
-libKF6Contacts.so.6:KContacts::operator<<(QDataStream&, KContacts::Picture const&)
-libKF6Contacts.so.6:KContacts::operator<<(QDataStream&, KContacts::Related const&)
-libKF6Contacts.so.6:KContacts::operator<<(QDataStream&, KContacts::Secrecy const&)
-libKF6Contacts.so.6:KContacts::operator<<(QDataStream&, KContacts::NickName const&)
-libKF6Contacts.so.6:KContacts::operator<<(QDataStream&, KContacts::TimeZone const&)
-libKF6Contacts.so.6:KContacts::operator<<(QDataStream&, KContacts::Addressee const&)
-libKF6Contacts.so.6:KContacts::operator>>(QDataStream&, KContacts::FieldGroup&)
-libKF6Contacts.so.6:KContacts::operator>>(QDataStream&, KContacts::CalendarUrl&)
-libKF6Contacts.so.6:KContacts::operator>>(QDataStream&, KContacts::PhoneNumber&)
-libKF6Contacts.so.6:KContacts::operator>>(QDataStream&, KContacts::ClientPidMap&)
-libKF6Contacts.so.6:KContacts::operator>>(QDataStream&, KContacts::ResourceLocatorUrl&)
-libKF6Contacts.so.6:KContacts::operator>>(QDataStream&, KContacts::Geo&)
-libKF6Contacts.so.6:KContacts::operator>>(QDataStream&, KContacts::Key&)
-libKF6Contacts.so.6:KContacts::operator>>(QDataStream&, KContacts::Org&)
-libKF6Contacts.so.6:KContacts::operator>>(QDataStream&, KContacts::Impp&)
-libKF6Contacts.so.6:KContacts::operator>>(QDataStream&, KContacts::Lang&)
-libKF6Contacts.so.6:KContacts::operator>>(QDataStream&, KContacts::Note&)
-libKF6Contacts.so.6:KContacts::operator>>(QDataStream&, KContacts::Role&)
-libKF6Contacts.so.6:KContacts::operator>>(QDataStream&, KContacts::Email&)
-libKF6Contacts.so.6:KContacts::operator>>(QDataStream&, KContacts::Sound&)
-libKF6Contacts.so.6:KContacts::operator>>(QDataStream&, KContacts::Title&)
-libKF6Contacts.so.6:KContacts::operator>>(QDataStream&, KContacts::Gender&)
-libKF6Contacts.so.6:KContacts::operator>>(QDataStream&, KContacts::Address&)
-libKF6Contacts.so.6:KContacts::operator>>(QDataStream&, KContacts::Picture&)
-libKF6Contacts.so.6:KContacts::operator>>(QDataStream&, KContacts::Related&)
-libKF6Contacts.so.6:KContacts::operator>>(QDataStream&, KContacts::Secrecy&)
-libKF6Contacts.so.6:KContacts::operator>>(QDataStream&, KContacts::NickName&)
-libKF6Contacts.so.6:KContacts::operator>>(QDataStream&, KContacts::TimeZone&)
-libKF6Contacts.so.6:KContacts::operator>>(QDataStream&, KContacts::Addressee&)
-libKF6Contacts.so.6:KContacts::FieldGroup::fieldGroupName() const
-libKF6Contacts.so.6:KContacts::FieldGroup::value() const
-libKF6Contacts.so.6:KContacts::FieldGroup::params() const
-libKF6Contacts.so.6:KContacts::FieldGroup::isValid() const
-libKF6Contacts.so.6:KContacts::FieldGroup::toString() const
-libKF6Contacts.so.6:KContacts::FieldGroup::operator==(KContacts::FieldGroup const&) const
-libKF6Contacts.so.6:KContacts::FieldGroup::operator!=(KContacts::FieldGroup const&) const
-libKF6Contacts.so.6:KContacts::CalendarUrl::url() const
-libKF6Contacts.so.6:KContacts::CalendarUrl::type() const
-libKF6Contacts.so.6:KContacts::CalendarUrl::params() const
-libKF6Contacts.so.6:KContacts::CalendarUrl::isValid() const
-libKF6Contacts.so.6:KContacts::CalendarUrl::toString() const
-libKF6Contacts.so.6:KContacts::CalendarUrl::operator==(KContacts::CalendarUrl const&) const
-libKF6Contacts.so.6:KContacts::CalendarUrl::operator!=(KContacts::CalendarUrl const&) const
-libKF6Contacts.so.6:KContacts::PhoneNumber::isPreferred() const
-libKF6Contacts.so.6:KContacts::PhoneNumber::supportsSms() const
-libKF6Contacts.so.6:KContacts::PhoneNumber::normalizedNumber() const
-libKF6Contacts.so.6:KContacts::PhoneNumber::id() const
-libKF6Contacts.so.6:KContacts::PhoneNumber::type() const
-libKF6Contacts.so.6:KContacts::PhoneNumber::number() const
-libKF6Contacts.so.6:KContacts::PhoneNumber::isEmpty() const
-libKF6Contacts.so.6:KContacts::PhoneNumber::toString() const
-libKF6Contacts.so.6:KContacts::PhoneNumber::typeLabel() const
-libKF6Contacts.so.6:KContacts::PhoneNumber::operator==(KContacts::PhoneNumber const&) const
-libKF6Contacts.so.6:KContacts::PhoneNumber::operator!=(KContacts::PhoneNumber const&) const
-libKF6Contacts.so.6:KContacts::ClientPidMap::clientPidMap() const
-libKF6Contacts.so.6:KContacts::ClientPidMap::params() const
-libKF6Contacts.so.6:KContacts::ClientPidMap::isValid() const
-libKF6Contacts.so.6:KContacts::ClientPidMap::toString() const
-libKF6Contacts.so.6:KContacts::ClientPidMap::operator==(KContacts::ClientPidMap const&) const
-libKF6Contacts.so.6:KContacts::ClientPidMap::operator!=(KContacts::ClientPidMap const&) const
-libKF6Contacts.so.6:KContacts::ContactGroup::ContactReference::preferredEmail() const
-libKF6Contacts.so.6:KContacts::ContactGroup::ContactReference::gid() const
-libKF6Contacts.so.6:KContacts::ContactGroup::ContactReference::uid() const
-libKF6Contacts.so.6:KContacts::ContactGroup::ContactReference::custom(QString const&) const
-libKF6Contacts.so.6:KContacts::ContactGroup::ContactReference::operator==(KContacts::ContactGroup::ContactReference const&) const
-libKF6Contacts.so.6:KContacts::ContactGroup::contactReference(int) const
-libKF6Contacts.so.6:KContacts::ContactGroup::ContactGroupReference::uid() const
-libKF6Contacts.so.6:KContacts::ContactGroup::ContactGroupReference::custom(QString const&) const
-libKF6Contacts.so.6:KContacts::ContactGroup::ContactGroupReference::operator==(KContacts::ContactGroup::ContactGroupReference const&) const
-libKF6Contacts.so.6:KContacts::ContactGroup::contactGroupReference(int) const
-libKF6Contacts.so.6:KContacts::ContactGroup::contactReferenceCount() const
-libKF6Contacts.so.6:KContacts::ContactGroup::contactGroupReferenceCount() const
-libKF6Contacts.so.6:KContacts::ContactGroup::id() const
-libKF6Contacts.so.6:KContacts::ContactGroup::Data::name() const
-libKF6Contacts.so.6:KContacts::ContactGroup::Data::email() const
-libKF6Contacts.so.6:KContacts::ContactGroup::Data::custom(QString const&) const
-libKF6Contacts.so.6:KContacts::ContactGroup::Data::operator==(KContacts::ContactGroup::Data const&) const
-libKF6Contacts.so.6:KContacts::ContactGroup::data(int) const
-libKF6Contacts.so.6:KContacts::ContactGroup::name() const
-libKF6Contacts.so.6:KContacts::ContactGroup::count() const
-libKF6Contacts.so.6:KContacts::ContactGroup::dataCount() const
-libKF6Contacts.so.6:KContacts::ContactGroup::operator==(KContacts::ContactGroup const&) const
-libKF6Contacts.so.6:KContacts::AddressFormat::usedFields() const
-libKF6Contacts.so.6:KContacts::AddressFormat::requiredFields() const
-libKF6Contacts.so.6:KContacts::AddressFormat::upperCaseFields() const
-libKF6Contacts.so.6:KContacts::AddressFormat::postalCodeRegularExpression() const
-libKF6Contacts.so.6:KContacts::AddressFormat::country() const
-libKF6Contacts.so.6:KContacts::AddressFormat::elements() const
-libKF6Contacts.so.6:KContacts::VCardConverter::parseVCard(QByteArray const&) const
-libKF6Contacts.so.6:KContacts::VCardConverter::createVCard(KContacts::Addressee const&, KContacts::VCardConverter::Version) const
-libKF6Contacts.so.6:KContacts::VCardConverter::exportVCard(KContacts::Addressee const&, KContacts::VCardConverter::Version) const
-libKF6Contacts.so.6:KContacts::VCardConverter::parseVCards(QByteArray const&) const
-libKF6Contacts.so.6:KContacts::VCardConverter::createVCards(QList<KContacts::Addressee> const&, KContacts::VCardConverter::Version) const
-libKF6Contacts.so.6:KContacts::VCardConverter::exportVCards(QList<KContacts::Addressee> const&, KContacts::VCardConverter::Version) const
-libKF6Contacts.so.6:KContacts::ResourceLocatorUrl::isPreferred() const
-libKF6Contacts.so.6:KContacts::ResourceLocatorUrl::url() const
-libKF6Contacts.so.6:KContacts::ResourceLocatorUrl::type() const
-libKF6Contacts.so.6:KContacts::ResourceLocatorUrl::params() const
-libKF6Contacts.so.6:KContacts::ResourceLocatorUrl::isValid() const
-libKF6Contacts.so.6:KContacts::ResourceLocatorUrl::toString() const
-libKF6Contacts.so.6:KContacts::ResourceLocatorUrl::operator==(KContacts::ResourceLocatorUrl const&) const
-libKF6Contacts.so.6:KContacts::ResourceLocatorUrl::operator!=(KContacts::ResourceLocatorUrl const&) const
-libKF6Contacts.so.6:KContacts::AddressFormatElement::isSeparator() const
-libKF6Contacts.so.6:KContacts::AddressFormatElement::field() const
-libKF6Contacts.so.6:KContacts::AddressFormatElement::isField() const
-libKF6Contacts.so.6:KContacts::AddressFormatElement::literal() const
-libKF6Contacts.so.6:KContacts::AddressFormatElement::isLiteral() const
-libKF6Contacts.so.6:KContacts::Geo::isValid() const
-libKF6Contacts.so.6:KContacts::Geo::latitude() const
-libKF6Contacts.so.6:KContacts::Geo::toString() const
-libKF6Contacts.so.6:KContacts::Geo::longitude() const
-libKF6Contacts.so.6:KContacts::Geo::operator==(KContacts::Geo const&) const
-libKF6Contacts.so.6:KContacts::Geo::operator!=(KContacts::Geo const&) const
-libKF6Contacts.so.6:KContacts::Key::binaryData() const
-libKF6Contacts.so.6:KContacts::Key::customTypeString() const
-libKF6Contacts.so.6:KContacts::Key::id() const
-libKF6Contacts.so.6:KContacts::Key::type() const
-libKF6Contacts.so.6:KContacts::Key::isBinary() const
-libKF6Contacts.so.6:KContacts::Key::textData() const
-libKF6Contacts.so.6:KContacts::Key::toString() const
-libKF6Contacts.so.6:KContacts::Key::operator==(KContacts::Key const&) const
-libKF6Contacts.so.6:KContacts::Key::operator!=(KContacts::Key const&) const
-libKF6Contacts.so.6:KContacts::Org::organization() const
-libKF6Contacts.so.6:KContacts::Org::params() const
-libKF6Contacts.so.6:KContacts::Org::isValid() const
-libKF6Contacts.so.6:KContacts::Org::toString() const
-libKF6Contacts.so.6:KContacts::Org::operator==(KContacts::Org const&) const
-libKF6Contacts.so.6:KContacts::Org::operator!=(KContacts::Org const&) const
-libKF6Contacts.so.6:KContacts::Impp::isPreferred() const
-libKF6Contacts.so.6:KContacts::Impp::serviceIcon() const
-libKF6Contacts.so.6:KContacts::Impp::serviceType() const
-libKF6Contacts.so.6:KContacts::Impp::serviceLabel() const
-libKF6Contacts.so.6:KContacts::Impp::params() const
-libKF6Contacts.so.6:KContacts::Impp::address() const
-libKF6Contacts.so.6:KContacts::Impp::isValid() const
-libKF6Contacts.so.6:KContacts::Impp::toString() const
-libKF6Contacts.so.6:KContacts::Impp::operator==(KContacts::Impp const&) const
-libKF6Contacts.so.6:KContacts::Impp::operator!=(KContacts::Impp const&) const
-libKF6Contacts.so.6:KContacts::Lang::params() const
-libKF6Contacts.so.6:KContacts::Lang::isValid() const
-libKF6Contacts.so.6:KContacts::Lang::language() const
-libKF6Contacts.so.6:KContacts::Lang::toString() const
-libKF6Contacts.so.6:KContacts::Lang::operator==(KContacts::Lang const&) const
-libKF6Contacts.so.6:KContacts::Lang::operator!=(KContacts::Lang const&) const
-libKF6Contacts.so.6:KContacts::Note::note() const
-libKF6Contacts.so.6:KContacts::Note::isValid() const
-libKF6Contacts.so.6:KContacts::Note::toString() const
-libKF6Contacts.so.6:KContacts::Note::operator==(KContacts::Note const&) const
-libKF6Contacts.so.6:KContacts::Note::operator!=(KContacts::Note const&) const
-libKF6Contacts.so.6:KContacts::Role::role() const
-libKF6Contacts.so.6:KContacts::Role::params() const
-libKF6Contacts.so.6:KContacts::Role::isValid() const
-libKF6Contacts.so.6:KContacts::Role::toString() const
-libKF6Contacts.so.6:KContacts::Role::operator==(KContacts::Role const&) const
-libKF6Contacts.so.6:KContacts::Role::operator!=(KContacts::Role const&) const
-libKF6Contacts.so.6:KContacts::Email::isPreferred() const
-libKF6Contacts.so.6:KContacts::Email::mail() const
-libKF6Contacts.so.6:KContacts::Email::type() const
-libKF6Contacts.so.6:KContacts::Email::params() const
-libKF6Contacts.so.6:KContacts::Email::isValid() const
-libKF6Contacts.so.6:KContacts::Email::toString() const
-libKF6Contacts.so.6:KContacts::Email::operator==(KContacts::Email const&) const
-libKF6Contacts.so.6:KContacts::Email::operator!=(KContacts::Email const&) const
-libKF6Contacts.so.6:KContacts::Sound::url() const
-libKF6Contacts.so.6:KContacts::Sound::data() const
-libKF6Contacts.so.6:KContacts::Sound::isEmpty() const
-libKF6Contacts.so.6:KContacts::Sound::isIntern() const
-libKF6Contacts.so.6:KContacts::Sound::toString() const
-libKF6Contacts.so.6:KContacts::Sound::operator==(KContacts::Sound const&) const
-libKF6Contacts.so.6:KContacts::Sound::operator!=(KContacts::Sound const&) const
-libKF6Contacts.so.6:KContacts::Title::title() const
-libKF6Contacts.so.6:KContacts::Title::params() const
-libKF6Contacts.so.6:KContacts::Title::isValid() const
-libKF6Contacts.so.6:KContacts::Title::toString() const
-libKF6Contacts.so.6:KContacts::Title::operator==(KContacts::Title const&) const
-libKF6Contacts.so.6:KContacts::Title::operator!=(KContacts::Title const&) const
-libKF6Contacts.so.6:KContacts::Gender::gender() const
-libKF6Contacts.so.6:KContacts::Gender::comment() const
-libKF6Contacts.so.6:KContacts::Gender::isValid() const
-libKF6Contacts.so.6:KContacts::Gender::toString() const
-libKF6Contacts.so.6:KContacts::Gender::operator==(KContacts::Gender const&) const
-libKF6Contacts.so.6:KContacts::Gender::operator!=(KContacts::Gender const&) const
-libKF6Contacts.so.6:KContacts::Address::postalCode() const
-libKF6Contacts.so.6:KContacts::Address::postOfficeBox() const
-libKF6Contacts.so.6:KContacts::Address::id() const
-libKF6Contacts.so.6:KContacts::Address::geo() const
-libKF6Contacts.so.6:KContacts::Address::type() const
-libKF6Contacts.so.6:KContacts::Address::label() const
-libKF6Contacts.so.6:KContacts::Address::geoUri() const
-libKF6Contacts.so.6:KContacts::Address::region() const
-libKF6Contacts.so.6:KContacts::Address::street() const
-libKF6Contacts.so.6:KContacts::Address::country() const
-libKF6Contacts.so.6:KContacts::Address::isEmpty() const
-libKF6Contacts.so.6:KContacts::Address::extended() const
-libKF6Contacts.so.6:KContacts::Address::locality() const
-libKF6Contacts.so.6:KContacts::Address::toString() const
-libKF6Contacts.so.6:KContacts::Address::formatted(KContacts::AddressFormatStyle, QString const&, QString const&) const
-libKF6Contacts.so.6:KContacts::Address::typeLabel() const
-libKF6Contacts.so.6:KContacts::Address::operator==(KContacts::Address const&) const
-libKF6Contacts.so.6:KContacts::Address::operator!=(KContacts::Address const&) const
-libKF6Contacts.so.6:KContacts::Picture::url() const
-libKF6Contacts.so.6:KContacts::Picture::data() const
-libKF6Contacts.so.6:KContacts::Picture::type() const
-libKF6Contacts.so.6:KContacts::Picture::isEmpty() const
-libKF6Contacts.so.6:KContacts::Picture::rawData() const
-libKF6Contacts.so.6:KContacts::Picture::isIntern() const
-libKF6Contacts.so.6:KContacts::Picture::toString() const
-libKF6Contacts.so.6:KContacts::Picture::operator==(KContacts::Picture const&) const
-libKF6Contacts.so.6:KContacts::Picture::operator!=(KContacts::Picture const&) const
-libKF6Contacts.so.6:KContacts::Related::params() const
-libKF6Contacts.so.6:KContacts::Related::isValid() const
-libKF6Contacts.so.6:KContacts::Related::related() const
-libKF6Contacts.so.6:KContacts::Related::toString() const
-libKF6Contacts.so.6:KContacts::Related::operator==(KContacts::Related const&) const
-libKF6Contacts.so.6:KContacts::Related::operator!=(KContacts::Related const&) const
-libKF6Contacts.so.6:KContacts::Secrecy::type() const
-libKF6Contacts.so.6:KContacts::Secrecy::isValid() const
-libKF6Contacts.so.6:KContacts::Secrecy::toString() const
-libKF6Contacts.so.6:KContacts::Secrecy::operator==(KContacts::Secrecy const&) const
-libKF6Contacts.so.6:KContacts::Secrecy::operator!=(KContacts::Secrecy const&) const
-libKF6Contacts.so.6:KContacts::NickName::params() const
-libKF6Contacts.so.6:KContacts::NickName::isValid() const
-libKF6Contacts.so.6:KContacts::NickName::nickname() const
-libKF6Contacts.so.6:KContacts::NickName::toString() const
-libKF6Contacts.so.6:KContacts::NickName::operator==(KContacts::NickName const&) const
-libKF6Contacts.so.6:KContacts::NickName::operator!=(KContacts::NickName const&) const
-libKF6Contacts.so.6:KContacts::TimeZone::offset() const
-libKF6Contacts.so.6:KContacts::TimeZone::isValid() const
-libKF6Contacts.so.6:KContacts::TimeZone::toString() const
-libKF6Contacts.so.6:KContacts::TimeZone::operator==(KContacts::TimeZone const&) const
-libKF6Contacts.so.6:KContacts::TimeZone::operator!=(KContacts::TimeZone const&) const
-libKF6Contacts.so.6:KContacts::Addressee::categories() const
-libKF6Contacts.so.6:KContacts::Addressee::department() const
-libKF6Contacts.so.6:KContacts::Addressee::familyName() const
-libKF6Contacts.so.6:KContacts::Addressee::profession() const
-libKF6Contacts.so.6:KContacts::Addressee::sortString() const
-libKF6Contacts.so.6:KContacts::Addressee::anniversary() const
-libKF6Contacts.so.6:KContacts::Addressee::findAddress(QString const&) const
-libKF6Contacts.so.6:KContacts::Addressee::hasCategory(QString const&) const
-libKF6Contacts.so.6:KContacts::Addressee::phoneNumber(QFlags<KContacts::PhoneNumber::TypeFlag>) const
-libKF6Contacts.so.6:KContacts::Addressee::spousesName() const
-libKF6Contacts.so.6:KContacts::Addressee::extraUrlList() const
-libKF6Contacts.so.6:KContacts::Addressee::managersName() const
-libKF6Contacts.so.6:KContacts::Addressee::organization() const
-libKF6Contacts.so.6:KContacts::Addressee::phoneNumbers(QFlags<KContacts::PhoneNumber::TypeFlag>) const
-libKF6Contacts.so.6:KContacts::Addressee::phoneNumbers() const
-libKF6Contacts.so.6:KContacts::Addressee::assembledName() const
-libKF6Contacts.so.6:KContacts::Addressee::extraLogoList() const
-libKF6Contacts.so.6:KContacts::Addressee::extraRoleList() const
-libKF6Contacts.so.6:KContacts::Addressee::formattedName() const
-libKF6Contacts.so.6:KContacts::Addressee::relationships() const
-libKF6Contacts.so.6:KContacts::Addressee::additionalName() const
-libKF6Contacts.so.6:KContacts::Addressee::assistantsName() const
-libKF6Contacts.so.6:KContacts::Addressee::extraPhotoList() const
-libKF6Contacts.so.6:KContacts::Addressee::extraSoundList() const
-libKF6Contacts.so.6:KContacts::Addressee::extraTitleList() const
-libKF6Contacts.so.6:KContacts::Addressee::fieldGroupList() const
-libKF6Contacts.so.6:KContacts::Addressee::preferredEmail() const
-libKF6Contacts.so.6:KContacts::Addressee::sourcesUrlList() const
-libKF6Contacts.so.6:KContacts::Addressee::birthdayHasTime() const
-libKF6Contacts.so.6:KContacts::Addressee::calendarUrlList() const
-libKF6Contacts.so.6:KContacts::Addressee::findPhoneNumber(QString const&) const
-libKF6Contacts.so.6:KContacts::Addressee::clientPidMapList() const
-libKF6Contacts.so.6:KContacts::Addressee::extraNickNameList() const
-libKF6Contacts.so.6:KContacts::Addressee::extraOrganizationList() const
-libKF6Contacts.so.6:KContacts::Addressee::geo() const
-libKF6Contacts.so.6:KContacts::Addressee::key(KContacts::Key::Type, QString const&) const
-libKF6Contacts.so.6:KContacts::Addressee::uid() const
-libKF6Contacts.so.6:KContacts::Addressee::url() const
-libKF6Contacts.so.6:KContacts::Addressee::keys(KContacts::Key::Type, QString const&) const
-libKF6Contacts.so.6:KContacts::Addressee::keys() const
-libKF6Contacts.so.6:KContacts::Addressee::kind() const
-libKF6Contacts.so.6:KContacts::Addressee::logo() const
-libKF6Contacts.so.6:KContacts::Addressee::name() const
-libKF6Contacts.so.6:KContacts::Addressee::note() const
-libKF6Contacts.so.6:KContacts::Addressee::role() const
-libKF6Contacts.so.6:KContacts::Addressee::langs() const
-libKF6Contacts.so.6:KContacts::Addressee::photo() const
-libKF6Contacts.so.6:KContacts::Addressee::sound() const
-libKF6Contacts.so.6:KContacts::Addressee::title() const
-libKF6Contacts.so.6:KContacts::Addressee::custom(QString const&, QString const&) const
-libKF6Contacts.so.6:KContacts::Addressee::emails() const
-libKF6Contacts.so.6:KContacts::Addressee::gender() const
-libKF6Contacts.so.6:KContacts::Addressee::mailer() const
-libKF6Contacts.so.6:KContacts::Addressee::office() const
-libKF6Contacts.so.6:KContacts::Addressee::prefix() const
-libKF6Contacts.so.6:KContacts::Addressee::suffix() const
-libKF6Contacts.so.6:KContacts::Addressee::address(QFlags<KContacts::Address::TypeFlag>) const
-libKF6Contacts.so.6:KContacts::Addressee::changed() const
-libKF6Contacts.so.6:KContacts::Addressee::customs() const
-libKF6Contacts.so.6:KContacts::Addressee::findKey(QString const&) const
-libKF6Contacts.so.6:KContacts::Addressee::isEmpty() const
-libKF6Contacts.so.6:KContacts::Addressee::members() const
-libKF6Contacts.so.6:KContacts::Addressee::secrecy() const
-libKF6Contacts.so.6:KContacts::Addressee::birthday() const
-libKF6Contacts.so.6:KContacts::Addressee::blogFeed() const
-libKF6Contacts.so.6:KContacts::Addressee::imppList() const
-libKF6Contacts.so.6:KContacts::Addressee::nickName() const
-libKF6Contacts.so.6:KContacts::Addressee::realName() const
-libKF6Contacts.so.6:KContacts::Addressee::revision() const
-libKF6Contacts.so.6:KContacts::Addressee::timeZone() const
-libKF6Contacts.so.6:KContacts::Addressee::toString() const
-libKF6Contacts.so.6:KContacts::Addressee::addresses(QFlags<KContacts::Address::TypeFlag>) const
-libKF6Contacts.so.6:KContacts::Addressee::addresses() const
-libKF6Contacts.so.6:KContacts::Addressee::emailList() const
-libKF6Contacts.so.6:KContacts::Addressee::fullEmail(QString const&) const
-libKF6Contacts.so.6:KContacts::Addressee::givenName() const
-libKF6Contacts.so.6:KContacts::Addressee::productId() const
-libKF6Contacts.so.6:KContacts::Addressee::operator==(KContacts::Addressee const&) const
-libKF6Contacts.so.6:KContacts::Addressee::operator!=(KContacts::Addressee const&) const
-libKF6Contacts.so.6:KContacts::VCardLine::identifier() const
-libKF6Contacts.so.6:KContacts::VCardLine::parameters(QString const&) const
-libKF6Contacts.so.6:KContacts::VCardLine::parameterMap() const
-libKF6Contacts.so.6:KContacts::VCardLine::parameterList() const
-libKF6Contacts.so.6:KContacts::VCardLine::group() const
-libKF6Contacts.so.6:KContacts::VCardLine::value() const
-libKF6Contacts.so.6:KContacts::VCardLine::hasGroup() const
-libKF6Contacts.so.6:KContacts::VCardLine::parameter(QString const&) const
-libKF6Contacts.so.6:KContacts::VCardLine::operator==(KContacts::VCardLine const&) const
-libKF6Contacts.so.6:KContacts::VCardTool::parseVCards(QByteArray const&) const
-libKF6Contacts.so.6:KContacts::VCardTool::createVCards(QList<KContacts::Addressee> const&, KContacts::VCard::Version) const
-libKF6Contacts.so.6:KContacts::VCardTool::exportVCards(QList<KContacts::Addressee> const&, KContacts::VCard::Version) const
+libKF6Contacts.so.6:KContacts::adaptIMAttributes(QByteArray&)
+libKF6Contacts.so.6:KContacts::dateToVCardString(QDate)
